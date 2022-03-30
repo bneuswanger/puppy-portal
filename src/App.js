@@ -13,13 +13,19 @@ const App = () => {
     setActiveDog(dogchoice);
   };
 
-  console.log(activeDog);
+  const goHomeHandler = (emptyDog) => {
+    setActiveDog(emptyDog);
+  };
+
   return (
     <div>
-      <Navbar dogs={dogData.dogs} onDogChosen={dogChoiceHandler} />
+      <Navbar
+        dogs={dogData.dogs}
+        onHomeClicked={goHomeHandler}
+        onDogChosen={dogChoiceHandler}
+      />
       <BodyCard>
-        {!dogData && <BodyHome />}
-        {dogData && <BodyDog dog={activeDog} />}
+        {activeDog.name ? <BodyDog dog={activeDog} /> : <BodyHome />}
       </BodyCard>
     </div>
   );

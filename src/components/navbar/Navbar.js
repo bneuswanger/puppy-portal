@@ -7,10 +7,16 @@ const Navbar = (props) => {
     props.onDogChosen(chosenDog);
   };
 
+  const goHome = () => {
+    props.onHomeClicked({});
+  };
+
   return (
     <nav>
       <ul>
-        <li className={styles.home}>Home</li>
+        <li className={styles.home} onClick={goHome}>
+          Home
+        </li>
         {props.dogs.map((dog) => (
           <NavbarItem
             key={dog.name}
