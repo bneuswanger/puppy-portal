@@ -1,0 +1,12 @@
+.card {
+    margin-top: 1rem;
+    display: flex;
+    background-color: #81D4FA;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 1300px;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 480;
+    color: rgb(55, 57, 61);
+}
