@@ -1,10 +1,6 @@
-import React, { useState } from 'react';
-
 const NavbarItem = (props) => {
-  const [chosenDog, setChosenDog] = useState({});
-
   const onDogClick = () => {
-    setChosenDog(props.dog);
+    const chosenDog = props.dog;
     props.onSetChosenDog(chosenDog);
   };
 

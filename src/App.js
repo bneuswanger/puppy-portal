@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import React, { useState } from 'react';
 
 import dogData from './dogData';
@@ -14,6 +12,7 @@ const App = () => {
   const dogChoiceHandler = (dogchoice) => {
     setActiveDog(dogchoice);
   };
+
   console.log(activeDog);
   return (
     <div>

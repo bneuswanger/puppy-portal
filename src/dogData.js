@@ -1,6 +1,5 @@
 module.exports.dogs = [
   {
-    key: Math.random(),
     name: 'Pooh Bear',
     birthDate: new Date(1994, 7, 1),
     deathYear: 2006,
@@ -53,7 +52,6 @@ module.exports.dogs = [
     },
   },
   {
-    key: Math.random(),
     name: 'Shonka',
     birthDate: new Date(1994, 7, 1),
     deathYear: 2002,
@@ -106,7 +104,6 @@ module.exports.dogs = [
     },
   },
   {
-    key: Math.random(),
     name: 'Mishka',
     birthDate: new Date(2006, 5, 11),
     deathYear: 2018,
@@ -159,7 +156,6 @@ module.exports.dogs = [
     },
   },
   {
-    key: Math.random(),
     name: 'Keenai',
     birthDate: new Date(2006, 9, 12),
     deathYear: 2020,
@@ -212,7 +208,6 @@ module.exports.dogs = [
     },
   },
   {
-    key: Math.random(),
     name: 'Sunny',
     birthDate: new Date(2008, 4, 28),
     deathYear: 2021,
@@ -265,7 +260,6 @@ module.exports.dogs = [
     },
   },
   {
-    key: Math.random(),
     name: 'Taiga',
     birthDate: new Date(2009, 3, 27),
     deathYear: 2019,
@@ -323,7 +317,6 @@ module.exports.dogs = [
     },
   },
   {
-    key: Math.random(),
     name: 'Josey',
     birthDate: new Date(2018, 12, 10),
     deathYear: null,
@@ -376,7 +369,6 @@ module.exports.dogs = [
     },
   },
   {
-    key: Math.random(),
     name: 'Ten Bears',
     birthDate: new Date(2019, 8, 19),
     deathYear: null,
@@ -429,7 +421,6 @@ module.exports.dogs = [
     },
   },
   {
-    key: Math.random(),
     name: 'Holly',
     birthDate: new Date(2020, 1, 29),
     deathYear: null,
@@ -482,7 +473,6 @@ module.exports.dogs = [
     },
   },
   {
-    key: Math.random(),
     name: 'Nika',
     birthDate: new Date(2019, 12, 1),
     deathYear: 2020,
@@ -537,7 +527,6 @@ module.exports.dogs = [
     },
   },
   {
-    key: Math.random(),
     name: 'Loki',
     birthDate: new Date(2020, 8, 26),
     deathYear: null,
