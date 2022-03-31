@@ -1,9 +1,9 @@
-import styles from './BodyDog.module.css';
-import female from '../../assets/gender-female.svg';
-import male from '../../assets/gender-male.svg';
-import HorizontalSeparator from '../UI/HorizontalSeparator';
+import styles from './BodyDogHeader.module.css';
+import female from '../../../assets/gender-female.svg';
+import male from '../../../assets/gender-male.svg';
+import HorizontalSeparator from '../../UI/HorizontalSeparator';
 
-const BodyDog = (props) => {
+const BodyDogHeader = (props) => {
   const currentAgeLiveDog = () => {
     var e = new Date();
     var b = new Date(props.dog.birthDate);
@@ -195,7 +195,7 @@ const BodyDog = (props) => {
   const birthDaySuffix = nth();
 
   return (
-    <main>
+    <div>
       <h1>{props.dog.name}</h1>
       <HorizontalSeparator />
       <img src={props.dog.sex === 'female' ? female : male} alt={props.dog.sex === 'female' ? 'female dog' : 'male dog'}></img>
@@ -219,8 +219,8 @@ const BodyDog = (props) => {
       )}
       <p>Allegedly owned by {props.dog.owners}</p>
       <HorizontalSeparator />
-    </main>
+    </div>
   );
 };
 
-export default BodyDog;
+export default BodyDogHeader;

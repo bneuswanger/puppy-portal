@@ -5,7 +5,8 @@ module.exports.dogs = [
     deathDate: new Date(2006, 0, 1),
     owners: 'Bryan, Mom, Dad & Jason',
     breed: 'Labrador Retriever',
-    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary:
+      "Pooh Bear was littermate to Shonka and an unplanned acquisition.  We were supposed to be getting a puppy (Shonka) for Jason, but 7-week-old Pooh Bear tugged at Dad's heart, and so we adopted both.  Like his cartoon namesake, Pooh Bear was sweet, lovable, and sometimes hapless (\"Da Bear!\").  Pooh became Bryan's best buddy and Dad's enthusiastic retriever of ducks.  At the end of a long, hard day swimming or wrestling with his brother, he would plop on top of whomever was laying on his couch.  Pooh Bear was an amazing combination of sweet house pet and competent hunting companion.",
     sex: 'male',
     images: {
       profile: {

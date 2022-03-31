@@ -4,7 +4,7 @@ import dogData from './dogData';
 import Navbar from './components/navbar/Navbar';
 import BodyCard from './components/body/BodyCard';
 import BodyHome from './components/body/BodyHome';
-import BodyDog from './components/body/BodyDog';
+import BodyDog from './components/body/BodyDog/BodyDog';
 
 const App = () => {
   const [activeDog, setActiveDog] = useState({});
