@@ -159,7 +159,7 @@ module.exports.dogs = [
     owners: 'Bryan',
     breed: 'Hovawart',
     summary:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
+      'Keenai was discovered by Bryan as a cute, fluffy puppy in Virginia.  A golden retriever mix of some sort, Keenai grew up to look exactly like a hovawart.  He was widely regarded as being one of the most beautiful dogs anyone had ever seen, and he was often the inspiration for Bryan\'s photography.  But beauty was more than "fur deep" with Keenai.  He was the most intelligent, amiable, easy-going dog we have ever known.  He had a great sense of humor and loved romping with Sunny, Mishka, and Taiga.  Keenai was totally devoted and attached to Bryan.  No human-canine connection could be any stronger.',
     sex: 'male',
     images: {
       profile: {

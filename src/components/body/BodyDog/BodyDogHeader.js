@@ -197,28 +197,17 @@ const BodyDogHeader = (props) => {
   return (
     <div>
       <h1>{props.dog.name}</h1>
-      <HorizontalSeparator />
       <img src={props.dog.sex === 'female' ? female : male} alt={props.dog.sex === 'female' ? 'female dog' : 'male dog'}></img>
       <p>{props.dog.breed}</p>
       <time className={styles.range}>{props.dog.birthDate.getFullYear()} - </time>
       {!props.dog.deathDate && <time className={styles.range}>present</time>}
       {props.dog.deathDate && <time className={styles.range}>{props.dog.deathDate.getFullYear()}</time>}
       <p>Allegedly owned by {props.dog.owners}</p>
-
-      {props.dog.name !== 'Nika' && (
-        <time className={styles.smallText}>
-          Born on {props.dog.birthDate.toLocaleString('default', { month: 'long' })} {props.dog.birthDate.getDate()}
-          {birthDaySuffix}
-        </time>
-      )}
-      {props.dog.name === 'Nika' && (
-        <time className={styles.smallText}>
-          Born around {props.dog.birthDate.toLocaleString('default', { month: 'long' })} {props.dog.birthDate.getDate()}
-          {birthDaySuffix}
-        </time>
-      )}
-      {props.dog.deathDate && <p className={styles.smallText}>Lived for {lifeSpan}</p>}
-      {!props.dog.deathDate && <p className={styles.smallText}>Currently {currentAge} old</p>}
+      <p className={styles.smallText}>
+        Born on {props.dog.birthDate.toLocaleString('default', { month: 'long' })} {props.dog.birthDate.getDate()}
+        {birthDaySuffix} {props.dog.deathDate && `and lived for ${lifeSpan}.`} {!props.dog.deathDate && `and is currently ${currentAge} old.`}
+      </p>
+      <HorizontalSeparator />
     </div>
   );
 };

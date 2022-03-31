@@ -1,3 +1,10 @@
+nav {
+    display: block;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 ul {
     background-color: #81D4FA;
     padding: .5rem;

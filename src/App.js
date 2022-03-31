@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from './App.module.css';
 
 import dogData from './dogData';
 import Navbar from './components/navbar/Navbar';
@@ -18,7 +19,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className={styles.container}>
       <Navbar dogs={dogData.dogs} onHomeClicked={goHomeHandler} onDogChosen={dogChoiceHandler} />
       <BodyCard>{activeDog.name ? <BodyDog dog={activeDog} /> : <BodyHome />}</BodyCard>
     </div>
