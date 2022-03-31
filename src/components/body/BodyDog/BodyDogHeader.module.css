@@ -1,24 +1,7 @@
-main {
-    display: flex;
-    display: block;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-color: #d2f0ff;
-    box-shadow: -1px -1px 5px rgb(97, 95, 95, .4);
-    padding: 1rem;
-    border-radius: 1rem;
-    width: 100%;
-    line-height: 2rem;
-}
-
-h1 {
-    font-family: 'Gluten', cursive;
-    font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-}
-
 .range {
     font-style: italic;
+}
+
+.smallText {
+    font-size: .7rem;
 }

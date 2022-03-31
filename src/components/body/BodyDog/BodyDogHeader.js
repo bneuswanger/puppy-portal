@@ -203,22 +203,22 @@ const BodyDogHeader = (props) => {
       <time className={styles.range}>{props.dog.birthDate.getFullYear()} - </time>
       {!props.dog.deathDate && <time className={styles.range}>present</time>}
       {props.dog.deathDate && <time className={styles.range}>{props.dog.deathDate.getFullYear()}</time>}
-      {props.dog.deathDate && <p>Lived for {lifeSpan}</p>}
-      {!props.dog.deathDate && <p>Currently {currentAge} old</p>}
-      {props.dog.name === 'Nika' && (
-        <time>
-          Born around {props.dog.birthDate.toLocaleString('default', { month: 'long' })} {props.dog.birthDate.getDate()}
-          {birthDaySuffix}
-        </time>
-      )}
+      <p>Allegedly owned by {props.dog.owners}</p>
+
       {props.dog.name !== 'Nika' && (
-        <time>
+        <time className={styles.smallText}>
           Born on {props.dog.birthDate.toLocaleString('default', { month: 'long' })} {props.dog.birthDate.getDate()}
           {birthDaySuffix}
         </time>
       )}
-      <p>Allegedly owned by {props.dog.owners}</p>
-      <HorizontalSeparator />
+      {props.dog.name === 'Nika' && (
+        <time className={styles.smallText}>
+          Born around {props.dog.birthDate.toLocaleString('default', { month: 'long' })} {props.dog.birthDate.getDate()}
+          {birthDaySuffix}
+        </time>
+      )}
+      {props.dog.deathDate && <p className={styles.smallText}>Lived for {lifeSpan}</p>}
+      {!props.dog.deathDate && <p className={styles.smallText}>Currently {currentAge} old</p>}
     </div>
   );
 };

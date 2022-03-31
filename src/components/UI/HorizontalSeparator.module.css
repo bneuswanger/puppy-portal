@@ -6,7 +6,8 @@
 }
 
 .line {
-    border-bottom: 2px solid rgb(80, 82, 85);
+    margin-top: .5rem;
+    border-bottom: 3px solid rgb(78, 82, 88);
     width: 30%;
     box-shadow: 0px 2px 4px rgb(107, 106, 106, .4);
     border-radius: 50%

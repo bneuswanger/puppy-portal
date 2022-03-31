@@ -56,7 +56,8 @@ module.exports.dogs = [
     deathDate: new Date(2002, 2, 5),
     owners: 'Jason, Mom, Dad & Bryan',
     breed: 'Labrador Retriever',
-    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary:
+      'Shonka ("dog" in Lakota) was littermate to Pooh Bear and Jason\'s best friend growing up.  Shonka had a classic, blocky head and soulful, intelligent eyes that let you know he was gently in charge.  The oil on his fur had a distinctive odor that we affectionately called the "Shonka stinkies."  While exceptionally intelligent and empathetic for a lab, Shonka\'s most noteworthy talent was his ability to sing along with the piano.  He would accompany whoever was playing and match the mood of the music with the tone and volume of his artistic howls.  Shonka was something special.',
     sex: 'male',
     images: {
       profile: {
@@ -106,7 +107,8 @@ module.exports.dogs = [
     deathDate: new Date(2018, 11, 31),
     owners: 'Mom & Dad',
     breed: 'Labrador Retriever',
-    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary:
+      'Mishka ("cute little bear" in Russian) was our first Wisconsin puppy - the largest in his litter and distinctive in having a thimble-sized splotch of dark fur on top of his pretty yellow head.  His daddy (Remington) was a hunt test field champion, and Mishka\'s skill and drive as a retriever were second to none.  He could remember the location of 5 distant dummies and retrieve them flawlessly with little or no guidance.  At home, he was an enthusiastic and accomplished opener of presents, and he loved to cuddle up with Dad in their favorite chair to read and nap.  Mishka loved his "up time" with Dad.',
     sex: 'male',
     images: {
       profile: {
@@ -156,7 +158,8 @@ module.exports.dogs = [
     deathDate: new Date(2020, 1, 3),
     owners: 'Bryan',
     breed: 'Hovawart',
-    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
     sex: 'male',
     images: {
       profile: {
@@ -206,7 +209,8 @@ module.exports.dogs = [
     deathDate: new Date(2021, 8, 28),
     owners: 'Mom & Dad',
     breed: 'Golden Retriever',
-    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
     sex: 'male',
     images: {
       profile: {
@@ -256,7 +260,8 @@ module.exports.dogs = [
     deathDate: new Date(2019, 4, 14),
     owners: 'Jason & Lena',
     breed: 'Mackenzie River Husky',
-    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
     sex: 'female',
     images: {
       //I'll be putting photos on Cloudinary and storing the URL's here. You can send via dropbox or e-mail.
@@ -311,7 +316,8 @@ module.exports.dogs = [
     deathDate: null,
     owners: 'Mom & Dad',
     breed: 'Rez Mutt',
-    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
     sex: 'female',
     images: {
       profile: {
@@ -361,7 +367,8 @@ module.exports.dogs = [
     deathDate: null,
     owners: 'Mom & Dad',
     breed: 'Labrador Retriever',
-    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
     sex: 'male',
     images: {
       profile: {
@@ -411,7 +418,8 @@ module.exports.dogs = [
     deathDate: null,
     owners: 'Bryan',
     breed: 'Lab/Husky',
-    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
     sex: 'female',
     images: {
       profile: {
@@ -512,7 +520,8 @@ module.exports.dogs = [
     deathDate: null,
     owners: 'Jason & Lena',
     breed: 'Belgian Tervuren',
-    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
     sex: 'male',
     images: {
       profile: {
