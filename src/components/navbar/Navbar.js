@@ -18,11 +18,7 @@ const Navbar = (props) => {
           Home
         </li>
         {props.dogs.map((dog) => (
-          <NavbarItem
-            key={dog.name}
-            dog={dog}
-            onSetChosenDog={setChosenDogHandler}
-          />
+          <NavbarItem key={dog.name} dog={dog} onSetChosenDog={setChosenDogHandler} />
         ))}
       </ul>
     </nav>

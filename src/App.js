@@ -19,14 +19,8 @@ const App = () => {
 
   return (
     <div>
-      <Navbar
-        dogs={dogData.dogs}
-        onHomeClicked={goHomeHandler}
-        onDogChosen={dogChoiceHandler}
-      />
-      <BodyCard>
-        {activeDog.name ? <BodyDog dog={activeDog} /> : <BodyHome />}
-      </BodyCard>
+      <Navbar dogs={dogData.dogs} onHomeClicked={goHomeHandler} onDogChosen={dogChoiceHandler} />
+      <BodyCard>{activeDog.name ? <BodyDog dog={activeDog} /> : <BodyHome />}</BodyCard>
     </div>
   );
 };

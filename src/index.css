@@ -31,8 +31,6 @@ caption, th {
   text-align: left;
 }
 
-
-
 q:before, q:after {
   content: '';
 }

@@ -1,13 +1,11 @@
 module.exports.dogs = [
   {
     name: 'Pooh Bear',
-    birthDate: new Date(1994, 7, 1),
-    deathYear: 2006,
-    ageAtDeath: '11 years, 6 months',
-    owners: ['Bryan', 'Mom', 'Dad', 'Jason'],
+    birthDate: new Date(1994, 6, 1),
+    deathDate: new Date(2006, 0, 1),
+    owners: 'Bryan, Mom, Dad & Jason',
     breed: 'Labrador Retriever',
-    summary:
-      'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
     sex: 'male',
     images: {
       profile: {
@@ -53,13 +51,11 @@ module.exports.dogs = [
   },
   {
     name: 'Shonka',
-    birthDate: new Date(1994, 7, 1),
-    deathYear: 2002,
-    ageAtDeath: '7 years, 8 months',
-    owners: ['Jason', 'Mom', 'Dad', 'Bryan'],
+    birthDate: new Date(1994, 6, 1),
+    deathDate: new Date(2002, 2, 5),
+    owners: 'Jason, Mom, Dad & Bryan',
     breed: 'Labrador Retriever',
-    summary:
-      'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
     sex: 'male',
     images: {
       profile: {
@@ -105,13 +101,11 @@ module.exports.dogs = [
   },
   {
     name: 'Mishka',
-    birthDate: new Date(2006, 5, 11),
-    deathYear: 2018,
-    ageAtDeath: '12 years, 7 months, 20 days',
-    owners: ['Mom', 'Dad'],
+    birthDate: new Date(2006, 4, 11),
+    deathDate: new Date(2018, 11, 31),
+    owners: 'Mom & Dad',
     breed: 'Labrador Retriever',
-    summary:
-      'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
     sex: 'male',
     images: {
       profile: {
@@ -157,17 +151,15 @@ module.exports.dogs = [
   },
   {
     name: 'Keenai',
-    birthDate: new Date(2006, 9, 12),
-    deathYear: 2020,
-    ageAtDeath: '13 years, 4 months, 22 days',
-    owners: ['Bryan'],
+    birthDate: new Date(2006, 8, 12),
+    deathDate: new Date(2020, 1, 3),
+    owners: 'Bryan',
     breed: 'Hovawart',
-    summary:
-      'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
     sex: 'male',
     images: {
       profile: {
-        url: 'rename pic you send as profile.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Keenai-Profile_cwwbwg.jpg',
       },
       puppy: {
         url: 'rename pic you send as puppy.jpg',
@@ -209,17 +201,15 @@ module.exports.dogs = [
   },
   {
     name: 'Sunny',
-    birthDate: new Date(2008, 4, 28),
-    deathYear: 2021,
-    ageAtDeath: '13 years, 5 months',
-    owners: ['Mom', 'Dad'],
+    birthDate: new Date(2008, 3, 28),
+    deathDate: new Date(2021, 8, 28),
+    owners: 'Mom & Dad',
     breed: 'Golden Retriever',
-    summary:
-      'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
     sex: 'male',
     images: {
       profile: {
-        url: 'rename pic you send as profile.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697378/Dog%20Project/Profile%20Square%20500px/Sunny-Profile_zlmx7u.jpg',
       },
       puppy: {
         url: 'rename pic puppy.jpg',
@@ -261,19 +251,17 @@ module.exports.dogs = [
   },
   {
     name: 'Taiga',
-    birthDate: new Date(2009, 3, 27),
-    deathYear: 2019,
-    ageAtDeath: '10 years, 1 month',
-    owners: ['Jason', 'Lena'],
+    birthDate: new Date(2009, 2, 27),
+    deathDate: new Date(2019, 4, 14),
+    owners: 'Jason & Lena',
     breed: 'Mackenzie River Husky',
-    summary:
-      'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
     sex: 'female',
     images: {
       //I'll be putting photos on Cloudinary and storing the URL's here. You can send via dropbox or e-mail.
       profile: {
         //Profile pic should be your favorite shot with a clear view of face
-        url: 'rename pic you send as profile.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Taiga-Profile_wqccxk.jpg',
       },
       puppy: {
         //Favorite puppy picture
@@ -318,17 +306,15 @@ module.exports.dogs = [
   },
   {
     name: 'Josey',
-    birthDate: new Date(2018, 12, 10),
-    deathYear: null,
-    ageAtDeath: null,
-    owners: ['Mom', 'Dad'],
+    birthDate: new Date(2018, 11, 10),
+    deathDate: null,
+    owners: 'Mom & Dad',
     breed: 'Rez Mutt',
-    summary:
-      'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
     sex: 'female',
     images: {
       profile: {
-        url: 'rename pic you send as profile.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697376/Dog%20Project/Profile%20Square%20500px/Josey-Profile_qqwoac.jpg',
       },
       puppy: {
         url: 'rename pic puppy.jpg',
@@ -370,17 +356,15 @@ module.exports.dogs = [
   },
   {
     name: 'Ten Bears',
-    birthDate: new Date(2019, 8, 19),
-    deathYear: null,
-    ageAtDeath: null,
-    owners: ['Mom', 'Dad'],
+    birthDate: new Date(2019, 7, 19),
+    deathDate: null,
+    owners: 'Mom & Dad',
     breed: 'Labrador Retriever',
-    summary:
-      'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
     sex: 'male',
     images: {
       profile: {
-        url: 'rename pic you send as profile.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/TenBears-Profile_cwit2r.jpg',
       },
       puppy: {
         url: 'rename pic puppy.jpg',
@@ -422,17 +406,15 @@ module.exports.dogs = [
   },
   {
     name: 'Holly',
-    birthDate: new Date(2020, 1, 29),
-    deathYear: null,
-    ageAtDeath: null,
-    owners: ['Bryan'],
+    birthDate: new Date(2020, 0, 29),
+    deathDate: null,
+    owners: 'Bryan',
     breed: 'Lab/Husky',
-    summary:
-      'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
     sex: 'female',
     images: {
       profile: {
-        url: 'rename pic you send as profile.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Holly-Profile_r2usbw.jpg',
       },
       puppy: {
         url: 'rename pic puppy.jpg',
@@ -474,17 +456,16 @@ module.exports.dogs = [
   },
   {
     name: 'Nika',
-    birthDate: new Date(2019, 12, 1),
-    deathYear: 2020,
-    ageAtDeath: '18 weeks',
-    owners: ['Jason', 'Lena'],
+    birthDate: new Date(2019, 11, 1),
+    deathDate: new Date(2020, 3, 4),
+    owners: 'Jason & Lena',
     breed: 'Belgian Tervuren',
     summary:
       "April 4, 2020 by Jason: After grieving the loss of our husky Taiga for most of a year, in early February we finally brought a new puppy into our lives. She was sick the entire time we knew her, at first with what looked like a bad tummy-ache from eating some bedding the night before we brought her home at 10 weeks old. However, that turned out to be the inciting stressor that destabilized a delicate equilibrium her developing brain had formed with a steadily progressing neurological disease, making her appear healthy up until that point.  For the doctors among you, an MRI this week found both congenital and severe obstructive hydrocephalus and syringohydromyelia that had formed more recently as a result. For most of the two months we knew her, she was an incredibly sweet, smart, loving, brave little girl who had quirky tremors and balance problems that didn't really disrupt her quality of life. Only in the last week did she really go downhill. We agonized all week over whether to try to save her with a surgery (ventriculoperitoneal shunt) that might have resolved the hydrocephalus and given her a normal life, but that also entailed severe risks of prolonging her pain in multiple ways. Today she declined to the point that it was no longer fair to prolong her experience, and we had to let her go after one last peaceful nap in the sunny grass.",
     sex: 'female',
     images: {
       profile: {
-        url: 'rename pic you send as profile.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Nika-Profile_ehtvii.jpg',
       },
       puppy: {
         url: 'rename pic puppy.jpg',
@@ -503,13 +484,11 @@ module.exports.dogs = [
       adultFavs: [
         {
           url: 'rename pic favs1.jpg',
-          caption:
-            "Nika loved chasing our four ducks, which we allowed because she didn't do it very much or for very long, and she never tried to actually catch or hurt them. They seemed to understand that and would sometimes curiously approach her, although they usually maintained a truce from a distance.",
+          caption: "Nika loved chasing our four ducks, which we allowed because she didn't do it very much or for very long, and she never tried to actually catch or hurt them. They seemed to understand that and would sometimes curiously approach her, although they usually maintained a truce from a distance.",
         },
         {
           url: 'rename pic favs2.jpg',
-          caption:
-            'Nika was way too young to skijor, but we took her to the mountains to discover snow and walk around a little bit for a taste of the experience.',
+          caption: 'Nika was way too young to skijor, but we took her to the mountains to discover snow and walk around a little bit for a taste of the experience.',
         },
         {
           url: 'rename pic favs3.jpg',
@@ -528,17 +507,15 @@ module.exports.dogs = [
   },
   {
     name: 'Loki',
-    birthDate: new Date(2020, 8, 26),
-    deathYear: null,
-    ageAtDeath: null,
-    owners: ['Jason', 'Lena'],
+    birthDate: new Date(2020, 7, 26),
+    deathDate: null,
+    owners: 'Jason & Lena',
     breed: 'Belgian Tervuren',
-    summary:
-      'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
+    summary: 'overall summary narrative/memorial, 100 words or less, will appear beside profile photo',
     sex: 'male',
     images: {
       profile: {
-        url: 'rename pic you send as profile.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Loki-Profile_mlxhse.jpg',
       },
       puppy: {
         url: 'rename pic puppy.jpg',
