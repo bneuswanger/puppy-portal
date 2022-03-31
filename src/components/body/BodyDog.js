@@ -1,6 +1,7 @@
 import styles from './BodyDog.module.css';
 import female from '../../assets/gender-female.svg';
 import male from '../../assets/gender-male.svg';
+import HorizontalSeparator from '../UI/HorizontalSeparator';
 
 const BodyDog = (props) => {
   const currentAgeLiveDog = () => {
@@ -196,11 +197,12 @@ const BodyDog = (props) => {
   return (
     <main>
       <h1>{props.dog.name}</h1>
+      <HorizontalSeparator />
       <img src={props.dog.sex === 'female' ? female : male} alt={props.dog.sex === 'female' ? 'female dog' : 'male dog'}></img>
       <p>{props.dog.breed}</p>
-      <time className={styles.time}>{props.dog.birthDate.getFullYear()} - </time>
-      {!props.dog.deathDate && <time className={styles.time}>present</time>}
-      {props.dog.deathDate && <time className={styles.time}>{props.dog.deathDate.getFullYear()}</time>}
+      <time className={styles.range}>{props.dog.birthDate.getFullYear()} - </time>
+      {!props.dog.deathDate && <time className={styles.range}>present</time>}
+      {props.dog.deathDate && <time className={styles.range}>{props.dog.deathDate.getFullYear()}</time>}
       {props.dog.deathDate && <p>Lived for {lifeSpan}</p>}
       {!props.dog.deathDate && <p>Currently {currentAge} old</p>}
       {props.dog.name === 'Nika' && (
@@ -216,7 +218,7 @@ const BodyDog = (props) => {
         </time>
       )}
       <p>Allegedly owned by {props.dog.owners}</p>
-      <hr></hr>
+      <HorizontalSeparator />
     </main>
   );
 };

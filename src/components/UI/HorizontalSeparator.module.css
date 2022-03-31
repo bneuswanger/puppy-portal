@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.line {
+    border-bottom: 2px solid rgb(80, 82, 85);
+    width: 30%;
+    box-shadow: 0px 2px 4px rgb(107, 106, 106, .4);
+    border-radius: 50%
+}

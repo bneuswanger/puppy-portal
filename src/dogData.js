@@ -9,7 +9,7 @@ module.exports.dogs = [
     sex: 'male',
     images: {
       profile: {
-        url: 'rename pic you send as profile.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648738904/Dog%20Project/Profile%20Square%20500px/PoohBear-Profile_tynm7q.jpg',
       },
       puppy: {
         url: 'rename pic puppy.jpg',
@@ -59,7 +59,7 @@ module.exports.dogs = [
     sex: 'male',
     images: {
       profile: {
-        url: 'rename pic you send as profile.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648738904/Dog%20Project/Profile%20Square%20500px/Shonka-Profile_rakr7h.jpg',
       },
       puppy: {
         url: 'rename pic puppy.jpg',
@@ -109,7 +109,7 @@ module.exports.dogs = [
     sex: 'male',
     images: {
       profile: {
-        url: 'rename pic you send as profile.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648738904/Dog%20Project/Profile%20Square%20500px/Mishka-Profile_yzrzoi.jpg',
       },
       puppy: {
         url: 'rename pic puppy.jpg',
