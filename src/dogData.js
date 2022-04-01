@@ -13,8 +13,8 @@ module.exports.dogs = [
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648738904/Dog%20Project/Profile%20Square%20500px/PoohBear-Profile_tynm7q.jpg',
       },
       puppy: {
-        url: 'rename pic puppy.jpg',
-        caption: 'string caption for puppy image',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776354/Dog%20Project/Puppy%20500px%20high/PoohBear-Puppy_vnhydy.jpg',
+        caption: 'Pooh Bear curled up for a nap after a hard afternoon of being a puppy.',
       },
       adultBest: [
         {
@@ -64,7 +64,7 @@ module.exports.dogs = [
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648738904/Dog%20Project/Profile%20Square%20500px/Shonka-Profile_rakr7h.jpg',
       },
       puppy: {
-        url: 'rename pic puppy.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Shonka-Puppy_bazy3b.jpg',
         caption: 'string caption for puppy image',
       },
       adultBest: [
@@ -115,7 +115,7 @@ module.exports.dogs = [
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648738904/Dog%20Project/Profile%20Square%20500px/Mishka-Profile_yzrzoi.jpg',
       },
       puppy: {
-        url: 'rename pic puppy.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Mishka-Puppy_jalyri.jpg',
         caption: 'string caption for puppy image',
       },
       adultBest: [
@@ -166,8 +166,8 @@ module.exports.dogs = [
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Keenai-Profile_cwwbwg.jpg',
       },
       puppy: {
-        url: 'rename pic you send as puppy.jpg',
-        caption: 'caption for puppy image',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Keenai-Puppy_jkifxt.jpg',
+        caption: 'On a chilly Fall afternoon, Keenai takes a break from playing in the carpet of yellow maple leaves to bond with Bryan.  Not a bad first day home!',
       },
       adultBest: [
         {
@@ -210,15 +210,15 @@ module.exports.dogs = [
     owners: 'Mom & Dad',
     breed: 'Golden Retriever',
     summary:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
+      'Sunny was an AKC-registered golden retriever ("Teal River Sunrise") with a heart of gold.  He, too, was an unplanned acquisition.  (Mom was retiring and Mishka needed a buddy to play with.)   Sunny was several months old when we heard about him from a friend who had bought a littermate.  Sunny was timid and submissive at first - quite uncertain about his new world.  But with patience and love, Sunny developed into a beautiful, strong, athletic, leader of the pack.  He was also as sweet and gentle and willing to please as any dog we’ve ever known.  He patiently taught Josey how to be a dog.',
     sex: 'male',
     images: {
       profile: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697378/Dog%20Project/Profile%20Square%20500px/Sunny-Profile_zlmx7u.jpg',
       },
       puppy: {
-        url: 'rename pic puppy.jpg',
-        caption: 'string caption for puppy image',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Sunny-Puppy_uhukrx.jpg',
+        caption: "Sunny's first boat ride!",
       },
       adultBest: [
         {
@@ -261,7 +261,7 @@ module.exports.dogs = [
     owners: 'Jason & Lena',
     breed: 'Mackenzie River Husky',
     summary:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
+      'Taiga was a pretty, long-haired Mackenzie River husky acquired from a sled-dog breeder as a puppy by Jason and Lena to share their adventures in Alaska.  Taiga taught Lena how to be a first-time dog owner, while Taiga learned to be a world traveler.  "Going with!" was Taiga\'s favorite phrase, and go she did.  From wilderness Alaska to the bustling Borough of Queens and the forests of northern Wisconsin where skijoring was initiated, Taiga tagged along with Jason and Lena on their exploits and travels.  She was an annual holiday season guest of Sunny, Mishka, & Keenai - a charter member of “the pack.”',
     sex: 'female',
     images: {
       //I'll be putting photos on Cloudinary and storing the URL's here. You can send via dropbox or e-mail.
@@ -271,7 +271,7 @@ module.exports.dogs = [
       },
       puppy: {
         //Favorite puppy picture
-        url: 'rename pic puppy.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Taiga-Puppy_yesfwa.jpg',
         caption: 'string caption for puppy image',
       },
       adultBest: [
@@ -317,14 +317,14 @@ module.exports.dogs = [
     owners: 'Mom & Dad',
     breed: 'Rez Mutt',
     summary:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
+      'Josey… Queen Josephine… or simply Her Majesty… is a canine version of Cinderella.  Born into a litter whelped by a Reservation stray at the local shelter, our very own "Rez Mutt" began her royal career under Sunny\'s tutelage and grew into a gentle 94-pound beauty who now rules her Teal River Kingdom.  Part Rottweiler, part Pitbull, part lots-of-stuff, Josey carries her beautiful head and majestic tail with great dignity.  Her "spots" include the recliner (when Sandy wants it), the couch (when Dave wants it), Bryan\'s lap, and Sandy\'s pillows on the bed (whenever she wants).  Josey talks when she wants something (like solo mid-day walks with Dave) and speaks occasionally on behalf of Ten Bears - such a smart girl.',
     sex: 'female',
     images: {
       profile: {
-        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697376/Dog%20Project/Profile%20Square%20500px/Josey-Profile_qqwoac.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648765246/Dog%20Project/Profile%20Square%20500px/Josey-Profile_xeovct.jpg',
       },
       puppy: {
-        url: 'rename pic puppy.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Josey-Puppy_fpbuof.jpg',
         caption: 'string caption for puppy image',
       },
       adultBest: [
@@ -368,14 +368,14 @@ module.exports.dogs = [
     owners: 'Mom & Dad',
     breed: 'Labrador Retriever',
     summary:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
+      'Ten Bears is a purebred yellow lab who was the runt of his Stone Lake litter and the last to find a home.  Sandy found him online and we decided, with Sunny aging, that Josey would need a more active buddy.   Josey quickly assumed the role of Ten Bears\' mommy, then playmate; and he adores her.  He is an enthusiastic retriever of balls and Frisbees, by land or sea; and he is the king of keep-away.  "Going with" to the dump or the lake is a big treat.  Indoors, Ten Bears is sweet, calm, and cuddly.  He maintains Mishka\'s "up time" tradition and dutifully accompanies Sandy to bed every night, keeping my side warm until I get there.',
     sex: 'male',
     images: {
       profile: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/TenBears-Profile_cwit2r.jpg',
       },
       puppy: {
-        url: 'rename pic puppy.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/TenBears-Puppy_s3k1s2.jpg',
         caption: 'string caption for puppy image',
       },
       adultBest: [
@@ -426,8 +426,8 @@ module.exports.dogs = [
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Holly-Profile_r2usbw.jpg',
       },
       puppy: {
-        url: 'rename pic puppy.jpg',
-        caption: 'string caption for puppy image',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Holly-Puppy_wbj62h.jpg',
+        caption: 'Bryan knew he had brought hope a pup... but he did not realize it was a fur seal pup.',
       },
       adultBest: [
         {
@@ -477,7 +477,7 @@ module.exports.dogs = [
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Nika-Profile_ehtvii.jpg',
       },
       puppy: {
-        url: 'rename pic puppy.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Nika-Puppy_h8c7ct.jpg',
         caption: 'string caption for puppy image',
       },
       adultBest: [
@@ -528,7 +528,7 @@ module.exports.dogs = [
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Loki-Profile_mlxhse.jpg',
       },
       puppy: {
-        url: 'rename pic puppy.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Loki-Puppy_ccs8tt.jpg',
         caption: 'string caption for puppy image',
       },
       adultBest: [

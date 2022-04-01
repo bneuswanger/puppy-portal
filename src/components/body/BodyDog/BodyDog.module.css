@@ -1,9 +1,9 @@
 main {
     display: flex;
-    display: block;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
     align-items: center;
+    text-align: center;
     background-color: #d2f0ff;
     box-shadow: -1px -1px 5px rgb(97, 95, 95, .4);
     padding: 1rem;

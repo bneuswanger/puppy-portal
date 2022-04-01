@@ -1,12 +1,12 @@
-.profile {
+.puppy {
     display: flex;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
-.profile>img {
-    display: flex;
-    max-width: 300px;
+.puppy>div>img {
+    max-width: 600px;
+    max-height: 300px;
     border-radius: 1rem;
     border: 2px solid rgb(80, 81, 85);
     box-shadow: 0px 2px 10px rgb(61, 61, 61, .4);
@@ -15,25 +15,24 @@
 .caption {
     padding: 2rem;
     text-align: justify;
-    display: flex;
 }
 
 @media (max-width: 1100px) {
 
-    .profile {
-        flex-direction: column;
+    .puppy {
+        flex-direction: column-reverse;
         margin: 1rem;
     }
 
-    .profile>img {
-        max-width: none;
+    .puppy>img {
+        max-width: 90%;
     }
 }
 
 @media (max-width: 760px) {
 
-    .profile>img {
-        max-width: none;
+    .puppy>img {
+        max-width: 500px;
     }
 
     .caption {
@@ -45,7 +44,7 @@
 
 @media (max-width: 590px) {
 
-    .profile>img {
+    .puppy>img {
         max-width: 85vw;
     }
 

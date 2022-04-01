@@ -1,7 +1,6 @@
 import styles from './BodyDogHeader.module.css';
 import female from '../../../assets/gender-female.svg';
 import male from '../../../assets/gender-male.svg';
-import HorizontalSeparator from '../../UI/HorizontalSeparator';
 
 const BodyDogHeader = (props) => {
   const currentAgeLiveDog = () => {
@@ -204,10 +203,9 @@ const BodyDogHeader = (props) => {
       {props.dog.deathDate && <time className={styles.range}>{props.dog.deathDate.getFullYear()}</time>}
       <p>Allegedly owned by {props.dog.owners}</p>
       <p className={styles.smallText}>
-        Born on {props.dog.birthDate.toLocaleString('default', { month: 'long' })} {props.dog.birthDate.getDate()}
+        {props.dog.name} was born on {props.dog.birthDate.toLocaleString('default', { month: 'long' })} {props.dog.birthDate.getDate()}
         {birthDaySuffix} {props.dog.deathDate && `and lived for ${lifeSpan}.`} {!props.dog.deathDate && `and is currently ${currentAge} old.`}
       </p>
-      <HorizontalSeparator />
     </div>
   );
 };
