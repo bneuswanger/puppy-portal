@@ -210,7 +210,7 @@ module.exports.dogs = [
     owners: 'Mom & Dad',
     breed: 'Golden Retriever',
     summary:
-      'Sunny was an AKC-registered golden retriever ("Teal River Sunrise") with a heart of gold.  He, too, was an unplanned acquisition.  (Mom was retiring and Mishka needed a buddy to play with.)   Sunny was several months old when we heard about him from a friend who had bought a littermate.  Sunny was timid and submissive at first - quite uncertain about his new world.  But with patience and love, Sunny developed into a beautiful, strong, athletic, leader of the pack.  He was also as sweet and gentle and willing to please as any dog we’ve ever known.  He patiently taught Josey how to be a dog.',
+      'Sunny was an AKC-registered golden retriever ("Teal River Sunrise") with a heart of gold.  He, too, was an unplanned acquisition.  (Mom was retiring and Mishka needed a buddy to play with.)   Sunny was several months old when we heard about him from a friend who had bought a littermate.  Sunny was timid and submissive at first - quite uncertain about his new world.  But with patience and love, Sunny developed into a beautiful, strong, athletic, leader of the pack.  He was also as sweet and gentle and willing to please as any dog we\'ve ever known.  He patiently taught Josey how to be a dog.',
     sex: 'male',
     images: {
       profile: {
@@ -414,7 +414,7 @@ module.exports.dogs = [
     owners: 'Bryan',
     breed: 'Lab/Husky',
     summary:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
+      'Holly was discovered by Bryan while still a shelter puppy in an attempt to at least partially fill the huge void left by Keenai’s passing.  Half lab combined with lots of other things resulted in a photogenic beauty similar to Taiga, with thick blonde hair that allows her to luxuriate in piles of snow.  Holly is very sweet and cuddly, but she has a stubborn, mischievous side that may have arisen from the “wild canid” in her ancestry.  She frequently steals socks and gloves and then ransoms them for treats.  Holly and Ten Bears will chase and play and yap and carry on for hours at a time.   The two are truly Best Friends Forever.',
     sex: 'female',
     images: {
       profile: {
@@ -422,7 +422,7 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Holly-Puppy_wbj62h.jpg',
-        caption: 'Bryan knew he had brought hope a pup... but he did not realize it was a fur seal pup.',
+        caption: 'Bryan knew he had brought home a pup... but he did not realize it was a fur seal pup.',
       },
       adultBest: [
         {
@@ -465,7 +465,7 @@ module.exports.dogs = [
     owners: 'Jason & Lena',
     breed: 'Belgian Tervuren',
     summary:
-      "April 4, 2020 by Jason: After grieving the loss of our husky Taiga for most of a year, in early February we finally brought a new puppy into our lives. She was sick the entire time we knew her, at first with what looked like a bad tummy-ache from eating some bedding the night before we brought her home at 10 weeks old. However, that turned out to be the inciting stressor that destabilized a delicate equilibrium her developing brain had formed with a steadily progressing neurological disease, making her appear healthy up until that point.  For the doctors among you, an MRI this week found both congenital and severe obstructive hydrocephalus and syringohydromyelia that had formed more recently as a result. For most of the two months we knew her, she was an incredibly sweet, smart, loving, brave little girl who had quirky tremors and balance problems that didn't really disrupt her quality of life. Only in the last week did she really go downhill. We agonized all week over whether to try to save her with a surgery (ventriculoperitoneal shunt) that might have resolved the hydrocephalus and given her a normal life, but that also entailed severe risks of prolonging her pain in multiple ways. Today she declined to the point that it was no longer fair to prolong her experience, and we had to let her go after one last peaceful nap in the sunny grass.",
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
     sex: 'female',
     images: {
       profile: {
