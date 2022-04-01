@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .profile>img {
@@ -9,11 +11,11 @@
     max-width: 300px;
     border-radius: 1rem;
     border: 2px solid rgb(80, 81, 85);
-    box-shadow: 0px 2px 10px rgb(61, 61, 61, .4);
+    box-shadow: 0px 2px 5px rgb(61, 61, 61, .4);
 }
 
 .caption {
-    padding: 2rem;
+    padding-left: 3rem;
     text-align: justify;
     display: flex;
 }
@@ -28,6 +30,11 @@
     .profile>img {
         max-width: none;
     }
+
+    .caption {
+        padding-left: 0rem;
+        padding-top: 1rem;
+    }
 }
 
 @media (max-width: 760px) {
@@ -38,7 +45,6 @@
 
     .caption {
         text-align: left;
-        padding: 0rem;
         padding-top: 1rem;
     }
 }
@@ -54,6 +60,5 @@
         padding: 0rem;
         padding-top: 1rem;
         font-size: smaller;
-        align-self: stretch;
     }
 }

@@ -19,33 +19,33 @@ module.exports.dogs = [
       adultBest: [
         {
           url: 'rename pic adultBest1.jpg',
-          caption: 'string caption for adult1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url2: 'rename pic adultBest2.jpg',
-          caption2: 'string caption for this img',
+          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
       adultFavs: [
         {
           url: 'rename pic favs1.jpg',
-          caption: 'string caption for favs1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs2.jpg',
-          caption: 'string caption for favs2',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs3.jpg',
-          caption: 'string caption for favs3',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs4.jpg',
-          caption: 'string caption for favs4',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs5.jpg',
-          caption: 'string caption for favs5',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
     },
@@ -65,16 +65,16 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Shonka-Puppy_bazy3b.jpg',
-        caption: 'string caption for puppy image',
+        caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
       },
       adultBest: [
         {
           url: 'rename pic adultBest1.jpg',
-          caption: 'string caption for adult1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url2: 'rename pic adultBest2.jpg',
-          caption2: 'string caption for this img',
+          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
       adultFavs: [
@@ -84,19 +84,19 @@ module.exports.dogs = [
         },
         {
           url: 'rename pic favs2.jpg',
-          caption: 'string caption for favs2',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs3.jpg',
-          caption: 'string caption for favs3',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs4.jpg',
-          caption: 'string caption for favs4',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs5.jpg',
-          caption: 'string caption for favs5',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
     },
@@ -116,38 +116,38 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Mishka-Puppy_jalyri.jpg',
-        caption: 'string caption for puppy image',
+        caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
       },
       adultBest: [
         {
           url: 'rename pic adultBest1.jpg',
-          caption: 'string caption for adult1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url2: 'rename pic adultBest2.jpg',
-          caption2: 'string caption for this img',
+          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
       adultFavs: [
         {
           url: 'rename pic favs1.jpg',
-          caption: 'string caption for favs1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs2.jpg',
-          caption: 'string caption for favs2',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs3.jpg',
-          caption: 'string caption for favs3',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs4.jpg',
-          caption: 'string caption for favs4',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs5.jpg',
-          caption: 'string caption for favs5',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
     },
@@ -166,39 +166,39 @@ module.exports.dogs = [
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Keenai-Profile_cwwbwg.jpg',
       },
       puppy: {
-        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Keenai-Puppy_jkifxt.jpg',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648784926/Dog%20Project/Puppy%20500px%20high/Keenai-Puppy_ervvkg.jpg',
         caption: 'On a chilly Fall afternoon, Keenai takes a break from playing in the carpet of yellow maple leaves to bond with Bryan.  Not a bad first day home!',
       },
       adultBest: [
         {
           url: 'label pic you send as adultBest1',
-          caption: 'caption for adult1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url2: 'label pic you send as adultBest2',
-          caption2: 'string caption for this img',
+          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
       adultFavs: [
         {
           url: 'label pic favs1',
-          caption: 'caption for favs1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'label pic favs2',
-          caption: 'caption for favs2',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'label pic favs',
-          caption: 'caption for favs3',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'label pic favs4',
-          caption: 'caption for favs4',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'label pic favs5',
-          caption: 'caption for favs5',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
     },
@@ -223,33 +223,33 @@ module.exports.dogs = [
       adultBest: [
         {
           url: 'rename pic adultBest1.jpg',
-          caption: 'string caption for adult1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url2: 'rename pic adultBest2.jpg',
-          caption2: 'string caption for this img',
+          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
       adultFavs: [
         {
           url: 'rename pic favs1.jpg',
-          caption: 'string caption for favs1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs2.jpg',
-          caption: 'string caption for favs2',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs3.jpg',
-          caption: 'string caption for favs3',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs4.jpg',
-          caption: 'string caption for favs4',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs5.jpg',
-          caption: 'string caption for favs5',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
     },
@@ -264,48 +264,43 @@ module.exports.dogs = [
       'Taiga was a pretty, long-haired Mackenzie River husky acquired from a sled-dog breeder as a puppy by Jason and Lena to share their adventures in Alaska.  Taiga taught Lena how to be a first-time dog owner, while Taiga learned to be a world traveler.  "Going with!" was Taiga\'s favorite phrase, and go she did.  From wilderness Alaska to the bustling Borough of Queens and the forests of northern Wisconsin where skijoring was initiated, Taiga tagged along with Jason and Lena on their exploits and travels.  She was an annual holiday season guest of Sunny, Mishka, & Keenai - a charter member of “the pack.”',
     sex: 'female',
     images: {
-      //I'll be putting photos on Cloudinary and storing the URL's here. You can send via dropbox or e-mail.
       profile: {
-        //Profile pic should be your favorite shot with a clear view of face
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Taiga-Profile_wqccxk.jpg',
       },
       puppy: {
-        //Favorite puppy picture
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Taiga-Puppy_yesfwa.jpg',
-        caption: 'string caption for puppy image',
+        caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
       },
       adultBest: [
         {
-          //Could also be puppy pictures, but I want to ensure I have at least one.
           url: 'rename pic adultBest1.jpg',
-          caption: 'string caption for adult1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url2: 'rename pic adultBest2.jpg',
-          caption2: 'string caption for this img',
+          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
       adultFavs: [
-        // Choose photo & caption assuming there will be some kind of "Favorite things to do" header
         {
           url: 'rename pic favs1.jpg',
-          caption: 'string caption for favs1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs2.jpg',
-          caption: 'string caption for favs2',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs3.jpg',
-          caption: 'string caption for favs3',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs4.jpg',
-          caption: 'string caption for favs4',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs5.jpg',
-          caption: 'string caption for favs5',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
     },
@@ -325,38 +320,38 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Josey-Puppy_fpbuof.jpg',
-        caption: 'string caption for puppy image',
+        caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
       },
       adultBest: [
         {
           url: 'rename pic adultBest1.jpg',
-          caption: 'string caption for adult1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url2: 'rename pic adultBest2.jpg',
-          caption2: 'string caption for this img',
+          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
       adultFavs: [
         {
           url: 'rename pic favs1.jpg',
-          caption: 'string caption for favs1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs2.jpg',
-          caption: 'string caption for favs2',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs3.jpg',
-          caption: 'string caption for favs3',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs4.jpg',
-          caption: 'string caption for favs4',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs5.jpg',
-          caption: 'string caption for favs5',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
     },
@@ -376,38 +371,38 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/TenBears-Puppy_s3k1s2.jpg',
-        caption: 'string caption for puppy image',
+        caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
       },
       adultBest: [
         {
           url: 'rename pic adultBest1.jpg',
-          caption: 'string caption for adult1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url2: 'rename pic adultBest2.jpg',
-          caption2: 'string caption for this img',
+          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
       adultFavs: [
         {
           url: 'rename pic favs1.jpg',
-          caption: 'string caption for favs1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs2.jpg',
-          caption: 'string caption for favs2',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs3.jpg',
-          caption: 'string caption for favs3',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs4.jpg',
-          caption: 'string caption for favs4',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs5.jpg',
-          caption: 'string caption for favs5',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
     },
@@ -432,33 +427,33 @@ module.exports.dogs = [
       adultBest: [
         {
           url: 'rename pic adultBest1.jpg',
-          caption: 'string caption for adult1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url2: 'rename pic adultBest2.jpg',
-          caption2: 'string caption for this img',
+          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
       adultFavs: [
         {
           url: 'rename pic favs1.jpg',
-          caption: 'string caption for favs1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs2.jpg',
-          caption: 'string caption for favs2',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs3.jpg',
-          caption: 'string caption for favs3',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs4.jpg',
-          caption: 'string caption for favs4',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs5.jpg',
-          caption: 'string caption for favs5',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
     },
@@ -478,7 +473,7 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Nika-Puppy_h8c7ct.jpg',
-        caption: 'string caption for puppy image',
+        caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
       },
       adultBest: [
         {
@@ -529,38 +524,38 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Loki-Puppy_ccs8tt.jpg',
-        caption: 'string caption for puppy image',
+        caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
       },
       adultBest: [
         {
           url: 'rename pic adultBest1.jpg',
-          caption: 'string caption for adult1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url2: 'rename pic adultBest2.jpg',
-          caption2: 'string caption for this img',
+          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
       adultFavs: [
         {
           url: 'rename pic favs1.jpg',
-          caption: 'string caption for favs1',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs2.jpg',
-          caption: 'string caption for favs2',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs3.jpg',
-          caption: 'string caption for favs3',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs4.jpg',
-          caption: 'string caption for favs4',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
         {
           url: 'rename pic favs5.jpg',
-          caption: 'string caption for favs5',
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
         },
       ],
     },

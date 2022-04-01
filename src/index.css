@@ -5,10 +5,11 @@
 /* font-family: 'Epilogue', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+body, div, dl, dt, dd, figure, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
 form, fieldset, input, p, blockquote, table, th, td, embed, object {
   padding: 0;
   margin: 0;
+  margin-block-start: 0em;
 }
 
 

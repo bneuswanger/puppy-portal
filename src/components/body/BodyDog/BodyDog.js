@@ -8,7 +8,6 @@ const BodyDog = (props) => {
   return (
     <main>
       <BodyDogHeader dog={props.dog} />
-      {/* <HorizontalSeparator /> */}
       <BodyDogProfile dog={props.dog} />
       <BodyDogPuppy dog={props.dog} />
       {/* <BodyDogBest /> */}

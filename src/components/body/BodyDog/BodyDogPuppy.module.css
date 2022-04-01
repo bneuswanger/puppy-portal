@@ -2,18 +2,24 @@
     display: flex;
     align-items: center;
     margin-top: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
-.puppy>div>img {
+.puppy>img {
     max-width: 600px;
     max-height: 300px;
     border-radius: 1rem;
     border: 2px solid rgb(80, 81, 85);
-    box-shadow: 0px 2px 10px rgb(61, 61, 61, .4);
+    box-shadow: 0px 2px 5px rgb(61, 61, 61, .4);
+
 }
 
 .caption {
-    padding: 2rem;
+    margin-right: 3rem;
+    margin-left: 10rem;
+    padding-left: 1rem;
+    border-left: 2px solid grey;
     text-align: justify;
 }
 
@@ -25,14 +31,23 @@
     }
 
     .puppy>img {
-        max-width: 90%;
+        max-width: none;
+        max-height: 500px;
+    }
+
+    .caption {
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        border-left: 0px;
+        margin-top: 1rem;
     }
 }
 
 @media (max-width: 760px) {
 
     .puppy>img {
-        max-width: 500px;
+        max-width: 85vw;
     }
 
     .caption {
@@ -44,14 +59,11 @@
 
 @media (max-width: 590px) {
 
-    .puppy>img {
-        max-width: 85vw;
-    }
 
     .caption {
         text-align: left;
         padding: 0rem;
-        padding-top: 1rem;
+        padding-top: .5rem;
         font-size: smaller;
         align-self: stretch;
     }
