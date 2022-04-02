@@ -18,7 +18,9 @@
     margin-right: 3rem;
     margin-left: 10rem;
     padding-left: 1rem;
-    border-left: 2px solid grey;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-left: 2px solid rgb(64, 69, 85, .1);
     text-align: justify;
 }
 
@@ -39,6 +41,8 @@
         margin-right: 0px;
         margin-left: 0px;
         padding-left: 0px;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
         border-left: 0px;
     }
 }
@@ -51,8 +55,7 @@
 
     .caption {
         text-align: left;
-        padding: 0rem;
-        padding-top: 1rem;
+        padding-top: 0rem;
     }
 }
 
@@ -61,8 +64,7 @@
 
     .caption {
         text-align: left;
-        padding: 0rem;
-        padding-top: .5rem;
+        padding-top: 0rem;
         font-size: smaller;
     }
 }

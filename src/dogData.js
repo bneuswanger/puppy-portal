@@ -186,7 +186,7 @@ module.exports.dogs = [
         },
         {
           url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648864033/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Keenai-FavoriteThings-05_sai5wh.jpg',
-          caption: 'Eating toys is all well and good until it\'s time to "come with."  Keenai was a great travel companion during 2-day drives to Wisconsin from Virginia, and of course, on shorter jaunts near home.  He would often sling his head out the window and let the wind blow it backwards.',
+          caption: 'Eating toys is all well and good until it\'s time to "come with."  Keenai was a great travel companion during 2-day drives to Wisconsin from Virginia, and of course, on shorter jaunts near home.  He would often sling his head out the window and let the wind pin it backwards.',
         },
         {
           url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648864033/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Keenai-FavoriteThings-02_cup4ls.jpg',

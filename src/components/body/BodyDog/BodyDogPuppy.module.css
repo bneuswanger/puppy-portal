@@ -10,7 +10,6 @@
     max-width: 600px;
     max-height: 300px;
     border-radius: 1rem;
-    /* border: 2px solid rgb(80, 81, 85); */
     box-shadow: 0px 2px 5px rgb(61, 61, 61, .4);
 
 }
@@ -19,7 +18,9 @@
     margin-right: 3rem;
     margin-left: 10rem;
     padding-left: 1rem;
-    border-left: 2px solid grey;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-left: 2px solid rgb(64, 69, 85, .1);
     text-align: justify;
 }
 
@@ -39,6 +40,8 @@
         margin-right: 0px;
         margin-left: 0px;
         padding-left: 0px;
+        padding-bottom: 0rem;
+        padding-top: 0rem;
         border-left: 0px;
         margin-top: 1rem;
     }
@@ -52,8 +55,8 @@
 
     .caption {
         text-align: left;
-        padding: 0rem;
-        padding-top: 1rem;
+        padding-top: 0rem;
+
     }
 }
 
@@ -62,9 +65,7 @@
 
     .caption {
         text-align: left;
-        padding: 0rem;
-        padding-top: .5rem;
+        padding-top: 0rem;
         font-size: smaller;
-        align-self: stretch;
     }
 }
