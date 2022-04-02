@@ -167,38 +167,62 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648784926/Dog%20Project/Puppy%20500px%20high/Keenai-Puppy_ervvkg.jpg',
-        caption: 'On a chilly Fall afternoon, Keenai takes a break from playing in the carpet of yellow maple leaves to bond with Bryan.  Not a bad first day home!',
+        caption: 'On a chilly Fall afternoon, Keenai takes a break from playing in the carpet of yellow maple leaves to bond with Bryan.  Pretty good first day home, and far from the 85-lb moose he would soon become!',
       },
       adultBest: [
         {
-          url: 'label pic you send as adultBest1',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648835385/Dog%20Project/Adult%20Favs%20500px%20high/Keenai-Adult2_ofegxf.jpg',
+          caption: 'Haphazardly guarding his dummy while posing for photos - a natural talent - on a calm, summer morning at the cabin.',
         },
         {
-          url2: 'label pic you send as adultBest2',
-          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648835385/Dog%20Project/Adult%20Favs%20500px%20high/Keenai-Adult1_ejnqdm.jpg',
+          caption2: 'Looking majestic in his beautiful coat while exploring the smells of Spring down by the Teal River.',
         },
       ],
       adultFavs: [
         {
-          url: 'label pic favs1',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648864033/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Keenai-FavoriteThings-04_afgbgm.jpg',
+          caption: "Getting started on a new 'fluffy' - his favorite type of toy to destroy.  Keenai was so easy-going, you could put another toy on his head and he wouldn't bat an eye.",
         },
         {
-          url: 'label pic favs2',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648864033/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Keenai-FavoriteThings-05_sai5wh.jpg',
+          caption: 'Eating toys is all well and good until it\'s time to "come with."  Keenai was a great travel companion during 2-day drives to Wisconsin from Virginia, and of course, on shorter jaunts near home.  He would often sling his head out the window and let the wind blow it backwards.',
         },
         {
-          url: 'label pic favs',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648864033/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Keenai-FavoriteThings-02_cup4ls.jpg',
+          caption: 'He was definitely a goofball and would happily humor my draping him in blankets and asking, "Where\'s Keenai?"  This photo was snapped immediately after his head popped out... "There\'s Keenai!"',
         },
         {
-          url: 'label pic favs4',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648864034/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Keenai-FavoriteThings-01_xfyab8.jpg',
+          caption: 'Keenai loved to sit out in literal blizzard conditions and watch "doggy TV" to flex his inner Newfie...',
         },
         {
-          url: 'label pic favs5',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648864033/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Keenai-FavoriteThings-03_yqt762.jpg',
+          caption: '...and once the snow had fallen, it was time to feast!  Keenai would graze on snow like a horse on grass.  The crunchier the better!',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648871950/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Keenai-FavoriteThings-07_rxbrrg.jpg',
+          caption: 'Mr. Stoic',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648871949/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Keenai-FavoriteThings-06_zsmodg.jpg',
+          caption: 'Keenai was always excited and ready to party on New Years!',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648871949/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Keenai-FavoriteThings-10_l0jxgj.jpg',
+          caption: 'Sticks are most definitely not allowed to remain in one piece.',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648871949/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Keenai-FavoriteThings-09_lvqaq2.jpg',
+          caption: 'Lots of water trapped in that coat!  This photo is one of many that Bryan sells as stock photography on Shutterstock and Adobe.',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648871949/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Keenai-FavoriteThings-08_xmjtmc.jpg',
+          caption: 'Speaking of selling stock photography, this shot of Keenai swimming into Moose Lake was purchased quite frequently...',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648871950/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Keenai-FavoriteThings-12_t3xb6o.jpg',
+          caption: '...and it wound up on the cover of this book!',
         },
       ],
     },
@@ -488,11 +512,11 @@ module.exports.dogs = [
       adultFavs: [
         {
           url: 'rename pic favs1.jpg',
-          caption: "Nika loved chasing our four ducks, which we allowed because she didn't do it very much or for very long, and she never tried to actually catch or hurt them. They seemed to understand that and would sometimes curiously approach her, although they usually maintained a truce from a distance.",
+          caption: "Nika loved chasing our four ducks, which we allowed because she didn't do it very much or for very long, and she never tried to actually catch or hurt them. They seemed to understand that and would sometimes curiously approach her, although they usually maintained a truce from a distance. -Jason",
         },
         {
           url: 'rename pic favs2.jpg',
-          caption: 'Nika was way too young to skijor, but we took her to the mountains to discover snow and walk around a little bit for a taste of the experience.',
+          caption: 'Nika was way too young to skijor, but we took her to the mountains to discover snow and walk around a little bit for a taste of the experience. -Jason',
         },
         {
           url: 'rename pic favs3.jpg',

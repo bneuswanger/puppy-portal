@@ -1,4 +1,4 @@
-.puppy {
+.figure {
     display: flex;
     align-items: center;
     margin-top: 3rem;
@@ -6,11 +6,10 @@
     margin-left: 1rem;
 }
 
-.puppy>img {
+.figure>img {
     max-width: 600px;
     max-height: 300px;
     border-radius: 1rem;
-    /* border: 2px solid rgb(80, 81, 85); */
     box-shadow: 0px 2px 5px rgb(61, 61, 61, .4);
 
 }
@@ -25,28 +24,28 @@
 
 @media (max-width: 1100px) {
 
-    .puppy {
+    .figure {
         flex-direction: column-reverse;
         margin: 1rem;
     }
 
-    .puppy>img {
+    .figure>img {
         max-width: none;
         max-height: 500px;
     }
 
     .caption {
+        margin-top: 1rem;
         margin-right: 0px;
         margin-left: 0px;
         padding-left: 0px;
         border-left: 0px;
-        margin-top: 1rem;
     }
 }
 
 @media (max-width: 830px) {
 
-    .puppy>img {
+    .figure>img {
         max-width: 85vw;
     }
 
@@ -65,6 +64,5 @@
         padding: 0rem;
         padding-top: .5rem;
         font-size: smaller;
-        align-self: stretch;
     }
 }

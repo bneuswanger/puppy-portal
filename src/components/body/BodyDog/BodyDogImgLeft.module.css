@@ -1,52 +1,51 @@
-.puppy {
+.figure {
     display: flex;
     align-items: center;
     margin-top: 3rem;
-    margin-right: 1rem;
     margin-left: 1rem;
+    margin-right: 1rem;
+
 }
 
-.puppy>img {
+.figure>img {
     max-width: 600px;
     max-height: 300px;
     border-radius: 1rem;
-    /* border: 2px solid rgb(80, 81, 85); */
     box-shadow: 0px 2px 5px rgb(61, 61, 61, .4);
-
 }
 
 .caption {
-    margin-right: 3rem;
-    margin-left: 10rem;
-    padding-left: 1rem;
-    border-left: 2px solid grey;
+    margin-left: 3rem;
+    margin-right: 10rem;
+    padding-right: 1rem;
+    border-right: 2px solid grey;
     text-align: justify;
 }
 
 @media (max-width: 1100px) {
 
-    .puppy {
-        flex-direction: column-reverse;
+    .figure {
+        flex-direction: column;
         margin: 1rem;
     }
 
-    .puppy>img {
+    .figure>img {
         max-width: none;
         max-height: 500px;
     }
 
     .caption {
+        margin-top: 1rem;
         margin-right: 0px;
         margin-left: 0px;
-        padding-left: 0px;
-        border-left: 0px;
-        margin-top: 1rem;
+        padding-right: 0px;
+        border-right: 0px;
     }
 }
 
 @media (max-width: 830px) {
 
-    .puppy>img {
+    .figure>img {
         max-width: 85vw;
     }
 
@@ -59,12 +58,10 @@
 
 @media (max-width: 590px) {
 
-
     .caption {
         text-align: left;
         padding: 0rem;
         padding-top: .5rem;
         font-size: smaller;
-        align-self: stretch;
     }
 }
