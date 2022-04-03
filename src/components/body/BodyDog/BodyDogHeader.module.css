@@ -5,3 +5,13 @@
 .smallText {
     font-size: .7rem;
 }
+
+.genetics {
+    font-size: .7rem;
+    color: rgb(0, 0, 255);
+    cursor: pointer;
+}
+
+.genetics:hover {
+    color: rgb(0, 0, 255, .7);
+}

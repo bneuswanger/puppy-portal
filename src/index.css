@@ -1,9 +1,20 @@
 /* font-family: 'Gluten', cursive; */
 /* Before deployment, check which font weights I've used and import only those */
+/* Available: 100-900 */
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
 
+/* font-family: 'Lemonada', cursive; */
+/* Available: 300-700 */
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
+
 /* font-family: 'Epilogue', sans-serif; */
+/* Available: 100-900 */
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: 'Markazi Text', serif; */
+/* Available: 400-700 */
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+
 
 body, div, dl, dt, dd, figure, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
 form, fieldset, input, p, blockquote, table, th, td, embed, object {

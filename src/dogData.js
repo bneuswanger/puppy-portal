@@ -157,7 +157,7 @@ module.exports.dogs = [
     birthDate: new Date(2006, 8, 12),
     deathDate: new Date(2020, 1, 3),
     owners: 'Bryan',
-    breed: 'Hovawart',
+    breed: 'Incidental Hovawart',
     summary:
       'Keenai was discovered by Bryan as a cute, fluffy puppy in Virginia.  A golden retriever mix of some sort, Keenai grew up to look exactly like a hovawart.  He was widely regarded as being one of the most beautiful dogs anyone had ever seen, and he was often the inspiration for Bryan\'s photography.  But beauty was more than "fur deep" with Keenai.  He was the most intelligent, amiable, easy-going dog we have ever known.  He had a great sense of humor and loved romping with Sunny, Mishka, and Taiga.  Keenai was totally devoted and attached to Bryan.  No human-canine connection could be any stronger.',
     sex: 'male',
@@ -334,7 +334,8 @@ module.exports.dogs = [
     birthDate: new Date(2018, 11, 10),
     deathDate: null,
     owners: 'Mom & Dad',
-    breed: 'Rez Mutt',
+    breed: 'Rottweiler/Boxer',
+    genetics: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648939220/Dog%20Project/Genetics/DNA_Josey_k1jjoy.png',
     summary:
       'Josey… Queen Josephine… or simply Her Majesty… is a canine version of Cinderella.  Born into a litter whelped by a Reservation stray at the local shelter, our very own "Rez Mutt" began her royal career under Sunny\'s tutelage and grew into a gentle 94-pound beauty who now rules her Teal River Kingdom.  Part Rottweiler, part Pitbull, part lots-of-stuff, Josey carries her beautiful head and majestic tail with great dignity.  Her "spots" include the recliner (when Sandy wants it), the couch (when Dave wants it), Bryan\'s lap, and Sandy\'s pillows on the bed (whenever she wants).  Josey talks when she wants something (like solo mid-day walks with Dave) and speaks occasionally on behalf of Ten Bears - such a smart girl.',
     sex: 'female',
@@ -437,6 +438,7 @@ module.exports.dogs = [
     deathDate: null,
     owners: 'Bryan',
     breed: 'Lab/Husky',
+    genetics: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648939220/Dog%20Project/Genetics/DNA_Holly_vgc0vb.png',
     summary:
       'Holly was discovered by Bryan while still a shelter puppy in an attempt to at least partially fill the huge void left by Keenai’s passing.  Half lab combined with lots of other things resulted in a photogenic beauty similar to Taiga, with thick blonde hair that allows her to luxuriate in piles of snow.  Holly is very sweet and cuddly, but she has a stubborn, mischievous side that may have arisen from the “wild canid” in her ancestry.  She frequently steals socks and gloves and then ransoms them for treats.  Holly and Ten Bears will chase and play and yap and carry on for hours at a time.   The two are truly Best Friends Forever.',
     sex: 'female',
@@ -540,7 +542,7 @@ module.exports.dogs = [
     owners: 'Jason & Lena',
     breed: 'Belgian Tervuren',
     summary:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laudantium suscipit quos minus ab quod temporibus magni, ad vero vel odio mollitia cum adipisci voluptas quibusdam laborum, similique ea doloribus itaque quae! Et optio commodi a consequuntur, nobis similique blanditiis, aspernatur repellat fugiat incidunt laborum quidem sunt id, dolorem impedit consequatur. Ipsam atque vitae porro eos enim ratione iure eum, tenetur eveniet quas, quos sed doloremque commodi. Accusantium ipsam vitae sit minima, veritatis veniam id debitis exercitationem corporis expedita laboriosam illo adipisci aperiam atque quam non dolorum, deleniti ipsum dolor voluptates! Consequuntur eaque non architecto! Quasi deleniti rerum officia minima.',
+      'In October of 2020, Jason & Lena picked up a male Belgian Tervuren at the Seattle airport.  They named him Loki - a "trickster" in Norse Mythology and companion to Odin and Thor.  Puppy Loki wasn\'t enamored of thunder at first (hid under Jason\'s desk), but soon he became a curious, confident, athletic member of the family.  Loki learned quickly that ducks are for watching, not chasing or eating.  He and Lena\'s favorite duck, Yogi, have a permanent truce that involves sharing cucumbers.  Loki loves to hunt truffles, run fast, jump high, and retrieve balls until your arm falls off.  He is now applying his strength and athleticism to the sport of skijoring, so he\'s happy to be "going with" when the gear comes out.',
     sex: 'male',
     images: {
       profile: {

@@ -1,6 +1,8 @@
 import styles from './BodyDogHeader.module.css';
 import female from '../../../assets/gender-female.svg';
 import male from '../../../assets/gender-male.svg';
+import ImageModal from '../../UI/ImageModal';
+import { useState } from 'react';
 
 const BodyDogHeader = (props) => {
   const currentAgeLiveDog = () => {
@@ -193,14 +195,30 @@ const BodyDogHeader = (props) => {
   };
   const birthDaySuffix = nth();
 
+  const [isGeneticsShown, setIsGeneticsShown] = useState(false);
+
+  const toggleGenetics = () => {
+    setIsGeneticsShown(!isGeneticsShown);
+  };
+
   return (
     <div>
+      {isGeneticsShown && <ImageModal btnText={'Close'} url={props.dog.genetics} onDismiss={toggleGenetics} />}
       <h1>{props.dog.name}</h1>
-      <img src={props.dog.sex === 'female' ? female : male} alt={props.dog.sex === 'female' ? 'female dog' : 'male dog'}></img>
-      <p>{props.dog.breed}</p>
+      <div>
+        <img src={props.dog.sex === 'female' ? female : male} alt={props.dog.sex === 'female' ? 'female dog' : 'male dog'}></img>
+      </div>
       <time className={styles.range}>{props.dog.birthDate.getFullYear()} - </time>
       {!props.dog.deathDate && <time className={styles.range}>present</time>}
       {props.dog.deathDate && <time className={styles.range}>{props.dog.deathDate.getFullYear()}</time>}
+      <p>{props.dog.breed}</p>
+      {props.dog.genetics && (
+        <div>
+          <span className={styles.genetics} onClick={toggleGenetics}>
+            Wisdom Panel Genetics
+          </span>
+        </div>
+      )}
       <p>Allegedly owned by {props.dog.owners}</p>
       <p className={styles.smallText}>
         {props.dog.name} was born on {props.dog.birthDate.toLocaleString('default', { month: 'long' })} {props.dog.birthDate.getDate()}

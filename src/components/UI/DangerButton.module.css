@@ -1,0 +1,21 @@
+.button {
+    font-family: 'Lemonada', cursive;
+    font-weight: 450;
+    font-size: 1rem;
+    padding: 0rem 5rem;
+    margin: .5rem;
+    border-radius: .3rem;
+    background-color: #fab181;
+    border: none;
+    color: #491d00;
+}
+
+.button:hover {
+    font-weight: 600;
+    background-color: #ec8d4d
+}
+
+.button:active {
+    font-weight: 700;
+    background-color: #e07b38
+}
