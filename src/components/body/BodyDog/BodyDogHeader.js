@@ -5,6 +5,7 @@ import ImageModal from '../../UI/ImageModal';
 import { useState } from 'react';
 
 const BodyDogHeader = (props) => {
+  //calculations performed on active dog to determine age-related display elements
   const currentAgeLiveDog = () => {
     var e = new Date();
     var b = new Date(props.dog.birthDate);
@@ -195,8 +196,8 @@ const BodyDogHeader = (props) => {
   };
   const birthDaySuffix = nth();
 
+  // State management
   const [isGeneticsShown, setIsGeneticsShown] = useState(false);
-
   const toggleGenetics = () => {
     setIsGeneticsShown(!isGeneticsShown);
   };
