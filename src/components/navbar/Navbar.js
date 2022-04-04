@@ -15,12 +15,16 @@ const Navbar = (props) => {
   return (
     <nav>
       <ul>
-        <li className={props.activeDog.name ? styleshome.inactive : styleshome.active} onClick={goHome}>
-          Home
-        </li>
-        {props.dogs.map((dog) => (
-          <NavbarItem activeDog={props.activeDog} key={dog.name} dog={dog} onSetChosenDog={setChosenDogHandler} />
-        ))}
+        <div className={`${styles.ul} ${styles.home}`}>
+          <li className={props.activeDog.name ? undefined : styleshome.active} onClick={goHome}>
+            Home
+          </li>
+        </div>
+        <div className={styles.ul}>
+          {props.dogs.map((dog) => (
+            <NavbarItem activeDog={props.activeDog} key={dog.name} dog={dog} onSetChosenDog={setChosenDogHandler} />
+          ))}
+        </div>
       </ul>
     </nav>
   );
