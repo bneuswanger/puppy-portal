@@ -8,6 +8,7 @@
     background-color: #fab181;
     border: none;
     color: #491d00;
+    align-self: center;
 }
 
 .button:hover {
@@ -18,4 +19,20 @@
 .button:active {
     font-weight: 700;
     background-color: #e07b38
+}
+
+@media (max-width: 585px) {
+    .button {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 490px) {
+    .button {
+        padding: 0rem 3rem;
+    }
+}
+
+@media (max-width: 270px) {
+    .button {}
 }

@@ -6,10 +6,8 @@ const ImageModal = (props) => {
     <div>
       <div className={styles.backdrop} onClick={props.onDismiss} />
       <div className={styles['image-wrapper']}>
-        <div>
-          <img src={props.url} className={styles.image} />
-          <DangerButton onClick={props.onDismiss} btnText={props.btnText}></DangerButton>
-        </div>
+        <img src={props.url} className={styles.image} />
+        <DangerButton onClick={props.onDismiss} btnText={props.btnText}></DangerButton>
       </div>
     </div>
   );
