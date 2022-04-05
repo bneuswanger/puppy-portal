@@ -1,49 +1,48 @@
 nav {
     display: block;
     max-width: 1300px;
+    height: 50px;
     margin-right: auto;
     margin-left: auto;
     position: relative;
     position: sticky;
     top: 0;
-    border-bottom: 4px solid #616161;
+    border-bottom: 4px solid #515152;
+
+    background: rgb(105, 205, 255);
+    background: linear-gradient(90deg, rgba(105, 205, 255, 1) 0%, rgba(211, 238, 255, 1) 48%, rgba(105, 205, 255, 1) 100%);
 }
-
-
 
 ul {
     background: rgb(105, 205, 255);
     background: linear-gradient(90deg, rgba(105, 205, 255, 1) 0%, rgba(211, 238, 255, 1) 48%, rgba(105, 205, 255, 1) 100%);
     display: flex;
-    flex-wrap: wrap;
+
     justify-content: center;
+    border-bottom: 4px solid #515152;
+    border-top: 4px solid #515152;
+}
+
+
+li {
     font-size: 1.5rem;
     color: #ffffff;
     user-select: none;
     font-family: 'Markazi Text', serif;
     font-weight: 650;
-    flex-grow: 1;
-}
-
-
-li {
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-right: .5rem;
+    padding-right: 13px;
+    padding-left: 13px;
     color: rgb(3, 5, 27);
 }
 
-.active {
-    background-color: #1565C0;
+.inactive:hover {
+    cursor: pointer;
     color: white;
-    transition: .6s;
+    background-color: #515152;
 }
 
-.active:hover {
-    color: white;
-}
 
 li:first-of-type {
     margin-right: auto;
@@ -53,6 +52,12 @@ li:last-of-type {
     margin-right: auto;
 }
 
+.active {
+    background-color: #515152;
+    color: white;
+}
+
+
 .burger {
     display: none;
     position: absolute;
@@ -60,22 +65,23 @@ li:last-of-type {
     top: 7px;
 }
 
-
-li:hover {
-    cursor: pointer;
-    color: rgba(3, 5, 27, .6);
-    font-weight: 500;
+.burger:hover {
+    transform: scale(1.05);
+    transition: transform .5s;
 }
 
-li:active {
-    color: rgb(25, 35, 122);
-}
+
 
 @media (max-width: 1000px) {
+    nav {
+        height: 42px;
+    }
+
     ul {
         flex-direction: column;
         height: auto;
         text-align: center;
+        border-top: none;
     }
 
     li {
@@ -92,13 +98,14 @@ li:active {
         margin-right: 0;
     }
 
+    li:last-of-type {
+        margin-right: 0;
+    }
+
     .burger {
         display: block;
         border-top: none;
         filter: invert(3%) sepia(52%) saturate(4059%) hue-rotate(231deg) brightness(99%) contrast(104%);
     }
 
-    li:last-of-type {
-        margin-right: 0;
-    }
 }
