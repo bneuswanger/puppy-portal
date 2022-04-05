@@ -12,6 +12,10 @@ const Navbar = (props) => {
     props.onHomeClicked({});
   };
 
+  const sortedByBirth = [...props.dogs].sort(function (a, b) {
+    return b.birthDate - a.birthDate;
+  });
+
   return (
     <nav>
       <ul>
@@ -21,7 +25,7 @@ const Navbar = (props) => {
           </li>
         </div>
         <div className={styles.ul}>
-          {props.dogs.map((dog) => (
+          {sortedByBirth.map((dog) => (
             <NavbarItem activeDog={props.activeDog} key={dog.name} dog={dog} onSetChosenDog={setChosenDogHandler} />
           ))}
         </div>
