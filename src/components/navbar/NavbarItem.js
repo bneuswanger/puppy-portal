@@ -1,4 +1,4 @@
-import styles from './NavbarItem.module.css';
+import styles from './Navbar.module.css';
 
 const NavbarItem = (props) => {
   const onDogClick = () => {
