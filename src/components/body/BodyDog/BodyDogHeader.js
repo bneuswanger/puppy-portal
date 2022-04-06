@@ -207,7 +207,7 @@ const BodyDogHeader = (props) => {
       {isGeneticsShown && <ImageModal btnText={'Close'} url={props.dog.genetics} onDismiss={toggleGenetics} />}
       <h1>{props.dog.name}</h1>
       <div>
-        <img src={props.dog.sex === 'female' ? female : male} alt={props.dog.sex === 'female' ? 'female dog' : 'male dog'}></img>
+        <img className={styles.genderIcon} src={props.dog.sex === 'female' ? female : male} alt={props.dog.sex === 'female' ? 'female dog' : 'male dog'}></img>
       </div>
       <time className={styles.range}>{props.dog.birthDate.getFullYear()} - </time>
       {!props.dog.deathDate && <time className={styles.range}>present</time>}

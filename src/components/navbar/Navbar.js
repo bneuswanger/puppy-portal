@@ -2,6 +2,7 @@ import styles from './Navbar.module.css';
 import NavbarItem from './NavbarItem';
 import burger from '../../assets/burger.svg';
 import React, { useState, useEffect } from 'react';
+import BackToTopButton from '../UI/BackToTopButton';
 
 const Navbar = (props) => {
   //State
@@ -23,14 +24,25 @@ const Navbar = (props) => {
     };
   }, []);
 
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   //Dogs
   const setChosenDogHandler = (dogchoice) => {
     const chosenDog = dogchoice;
     props.onDogChosen(chosenDog);
+    screenWidth <= 1070 && setToggleMenu(false);
+    scrollUp();
   };
 
   const goHome = () => {
     props.onHomeClicked({});
+    screenWidth <= 1070 && setToggleMenu(false);
+    scrollUp();
   };
 
   const sortedByBirth = [...props.dogs].sort(function (a, b) {
@@ -39,9 +51,9 @@ const Navbar = (props) => {
 
   return (
     <nav>
-      {(toggleMenu || screenWidth > 1000) && (
+      {(toggleMenu || screenWidth > 1070) && (
         <ul>
-          <li className={props.activeDog.name ? styles.inactive : styles.active} onClick={goHome}>
+          <li className={styles.home} onClick={goHome}>
             Home
           </li>
           {sortedByBirth.map((dog) => (
@@ -52,6 +64,7 @@ const Navbar = (props) => {
       <div>
         <img onClick={toggleNav} className={styles.burger} src={burger} alt="toggle navbar" />
       </div>
+      <BackToTopButton />
     </nav>
   );
 };

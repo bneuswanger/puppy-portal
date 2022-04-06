@@ -1,5 +1,4 @@
 .card {
-
     margin-top: 0rem;
     margin-left: auto;
     margin-right: auto;
@@ -8,5 +7,5 @@
     font-family: 'Epilogue', sans-serif;
     font-size: 1.2rem;
     font-weight: 480;
-    color: rgb(55, 57, 61);
+    color: #37393d;
 }
