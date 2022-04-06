@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import up from '../../assets/BackToTopButton.svg';
 import styles from './BackToTopButton.module.css';
+import Tooltip from './Tooltip';
 
 const BackToTopButton = () => {
   const [backToTop, setBackToTop] = useState(false);
