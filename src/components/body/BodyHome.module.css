@@ -1,14 +1,28 @@
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
-    background-color: #d2f0ff;
-    box-shadow: -1px -1px 5px rgb(97, 95, 95, .4);
-    padding: 2rem;
+    padding: 0rem;
     width: 100%;
+    height: calc(100vh - 50px);
+    padding-top: 1rem;
     line-height: 2rem;
+    overflow: hidden;
+}
+
+.paw {
+    height: 50px;
+    filter: invert(18%) sepia(12%) saturate(362%) hue-rotate(182deg) brightness(87%) contrast(83%);
+}
+
+.img {
+    margin: 1rem 0rem;
+    max-width: 75%;
+    max-height: 70vh;
+    border: 2px solid #515152;
+    box-shadow: 2px 5px 10px rgb(81, 81, 82, .6);
 }
 
 

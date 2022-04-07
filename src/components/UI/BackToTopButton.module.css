@@ -9,7 +9,9 @@
 .up:hover {
     transform: scale(1.1);
     transition: .4s;
+    cursor: pointer;
 }
+
 
 @media (max-width: 1070px) {
     .up {

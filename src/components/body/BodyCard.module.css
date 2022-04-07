@@ -1,11 +1,18 @@
 .card {
     margin-top: 0rem;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #81D4FA;
-    max-width: 1300px;
+    background: #c0eaff;
+    background: linear-gradient(90deg, #c0eaff 0%, rgb(232, 246, 255) 48%, #c0eaff 100%);
+    min-width: 100vw;
     font-family: 'Epilogue', sans-serif;
     font-size: 1.2rem;
     font-weight: 480;
     color: #37393d;
+}
+
+h1 {
+    font-family: 'Gluten', cursive;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 1rem;
+    line-height: 45px;
 }

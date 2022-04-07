@@ -3,7 +3,6 @@ import NavbarItem from './NavbarItem';
 import burger from '../../assets/burger.svg';
 import React, { useState, useEffect } from 'react';
 import BackToTopButton from '../UI/BackToTopButton';
-import Tooltip from '../UI/Tooltip';
 
 const Navbar = (props) => {
   //State
