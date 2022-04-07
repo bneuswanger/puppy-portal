@@ -18,15 +18,60 @@
 }
 
 .img {
-    margin: 1rem 0rem;
-    max-width: 75%;
-    max-height: 70vh;
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
     border: 2px solid #515152;
-    box-shadow: 2px 5px 10px rgb(81, 81, 82, .6);
+    box-shadow: 2px 4px 8px rgb(81, 81, 82, .6);
+}
+
+.hero-figure {
+    width: 65%;
 }
 
 
-@media (max-width: 650px) {
+.hero-caption {
+    text-align: left;
+    font-size: 15px;
+    color: rgba(55, 57, 61, .7);
+    position: relative;
+    left: 10px;
+    line-height: 20px;
+}
+
+@media (max-width: 1070px) {
+    .hero-figure {
+        width: 90%
+    }
+
+    .paw {
+        height: 40px;
+    }
+
+    .title-text {
+        font-size: 2rem;
+        margin: .6rem;
+    }
+}
+
+@media (max-width: 636px) {
+    .hero-figure {
+        width: 100%
+    }
+
+    .paw {
+        height: 30px;
+    }
+
+    .hero-caption {
+        font-size: 12px;
+    }
+
+    .title-text {
+        font-size: 1.5rem;
+        margin: 0rem;
+    }
+
     .main {
         padding: .6rem;
     }

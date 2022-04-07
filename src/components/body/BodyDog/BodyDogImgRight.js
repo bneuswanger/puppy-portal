@@ -4,7 +4,7 @@ const BodyDogImgRight = (props) => {
   return (
     <figure className={styles.figure}>
       <figcaption className={styles.caption}>{props.caption}</figcaption>
-      <img src={props.img} alt={props.alt}></img>
+      <img loading="lazy" src={props.img} alt={props.alt}></img>
     </figure>
   );
 };

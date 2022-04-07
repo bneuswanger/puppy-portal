@@ -11,10 +11,10 @@ const BodyDog = (props) => {
 
   for (let i = 0; i < props.dog.images.adultFavs.length; i++) {
     if (i % 2 === 0 && favsData[i].url !== '') {
-      favPics.push(<BodyDogImgLeft key={i} dog={props.dog} img={favsData[i].url} caption={favsData[i].caption} alt={`${i + 1} of ${favsData.length} favorite activity photos`} />);
+      favPics.push(<BodyDogImgLeft key={i} dog={props.dog} img={favsData[i].url} caption={favsData[i].caption} alt={`${i + 1} of ${favsData.length} additional photos of ${props.dog.name}`} />);
     }
     if (i % 2 !== 0 && favsData[i].url !== '') {
-      favPics.push(<BodyDogImgRight key={i} dog={props.dog} img={favsData[i].url} caption={favsData[i].caption} alt={`${i + 1} of ${favsData.length} favorite activity photos`} />);
+      favPics.push(<BodyDogImgRight key={i} dog={props.dog} img={favsData[i].url} caption={favsData[i].caption} alt={`${i + 1} of ${favsData.length} additional photos of ${props.dog.name}`} />);
     }
   }
 
