@@ -61,4 +61,5 @@ html {
 
 body {
   background: #515152;
+  overflow-x: hidden;
 }
