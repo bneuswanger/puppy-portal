@@ -28,31 +28,34 @@ const BodyDog = (props) => {
   const firstFour = fillFirstFour();
   const [favPics, setFavPics] = useState(firstFour);
 
-  const addFourMoreFavs = () => {
+  const addFourFavs = () => {
     let fourMore = [];
     for (let i = offset; i < offset + 4 && i < totalFavPics; i++) {
-      console.log(i);
       if (i % 2 === 0 && favsData[i].url !== '') {
+        console.log('i from within even push', i);
         fourMore.push(<BodyDogImgLeft key={i} dog={props.dog} img={favsData[i].url} caption={favsData[i].caption} alt={`${i + 1} of ${favsData.length} additional photos of ${props.dog.name}`} />);
+        console.log(fourMore);
       }
       if (i % 2 !== 0 && favsData[i].url !== '') {
+        console.log('i from within odd push', i);
         fourMore.push(<BodyDogImgRight key={i} dog={props.dog} img={favsData[i].url} caption={favsData[i].caption} alt={`${i + 1} of ${favsData.length} additional photos of ${props.dog.name}`} />);
       }
-      console.log('fourMore', fourMore);
     }
     setFavPics((prevFavPics) => [...prevFavPics, ...fourMore]);
     setOffset((prevOffset) => (prevOffset += 4));
   };
-  console.log('4,5,2,1 | 3,7,6,10 | 9, 8, 12 ', favPics);
-  console.log('Offset +4 each time', offset);
+
+  // console.log('4,5,2,1 | 3,7,6,10 | 9, 8, 12 ', favPics);
+  // console.log('Offset +4 each time', offset);
 
   const handleScroll = (e) => {
     if (window.innerHeight + e.target.documentElement.scrollTop + 1 >= e.target.documentElement.scrollHeight) {
-      addFourMoreFavs();
+      addFourFavs();
     }
   };
 
   useEffect(() => {
+    addFourFavs();
     window.addEventListener('scroll', handleScroll);
   }, []);
 
