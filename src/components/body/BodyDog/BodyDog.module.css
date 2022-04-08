@@ -10,6 +10,11 @@
     margin-top: 2px;
 }
 
+.copyright {
+    margin-top: 5rem;
+    font-size: smaller;
+    color: rgba(55, 57, 61, .7);
+}
 
 
 @media (max-width: 650px) {

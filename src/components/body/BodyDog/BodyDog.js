@@ -26,6 +26,7 @@ const BodyDog = (props) => {
       <BodyDogImgLeft dog={props.dog} img={props.dog.images.adultBest[0].url} caption={props.dog.images.adultBest[0].caption} alt="1 of 2 best photos" />
       <BodyDogImgRight dog={props.dog} img={props.dog.images.adultBest[1].url2} caption={props.dog.images.adultBest[1].caption2} alt="2 of 2 best photos" />
       {favPics}
+      <p className={styles.copyright}>&copy; Bryan Neuswanger 2022. All rights reserved.</p>
     </main>
   );
 };

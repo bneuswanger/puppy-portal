@@ -9,6 +9,7 @@
 .profile>img {
     display: flex;
     max-width: 300px;
+    height: auto;
     border-radius: 1rem;
     box-shadow: 0px 2px 5px rgb(61, 61, 61, .4);
 }
