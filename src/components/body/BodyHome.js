@@ -23,7 +23,7 @@ const BodyHome = (props) => {
         </picture>
         <figcaption className={styles['hero-caption']}>(Left to Right) Holly, Ten Bears and Josey enjoying a crisp Fall afternoon.</figcaption>
       </figure>
-      <p className={styles.copyright}>&copy; Bryan Neuswanger 2022. All rights reserved.</p>
+      <p className={styles.copyright}>&copy; 2022. All rights reserved.</p>
     </main>
   );
 };

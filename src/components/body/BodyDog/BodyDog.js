@@ -7,52 +7,43 @@ import styles from './BodyDog.module.css';
 import { useEffect, useState } from 'react';
 
 const BodyDog = (props) => {
-  const [offset, setOffset] = useState(4);
+  const [offset, setOffset] = useState(0);
+  const [favPics, setFavPics] = useState([]);
 
+  //these two just make for shorter code
   const totalFavPics = props.dog.images.adultFavs.length;
   const favsData = props.dog.images.adultFavs;
 
-  const fillFirstFour = () => {
-    let initialLoad = [];
-    for (let i = 0; i < offset && i < totalFavPics; i++) {
-      if (i % 2 === 0 && favsData[i].url !== '') {
-        initialLoad.push(<BodyDogImgLeft key={i} dog={props.dog} img={favsData[i].url} caption={favsData[i].caption} alt={`${i + 1} of ${favsData.length} additional photos of ${props.dog.name}`} />);
-      }
-      if (i % 2 !== 0 && favsData[i].url !== '') {
-        initialLoad.push(<BodyDogImgRight key={i} dog={props.dog} img={favsData[i].url} caption={favsData[i].caption} alt={`${i + 1} of ${favsData.length} additional photos of ${props.dog.name}`} />);
-      }
-    }
-    return initialLoad;
-  };
-
-  const firstFour = fillFirstFour();
-  const [favPics, setFavPics] = useState(firstFour);
+  // addFourFavs() grabs 4 items from a storage array and passes data as props to a component that either displays the image to the left or the right of the caption (it alternates on the page).
+  // Then it pushes each component onto [getFour] that is used to update the state of [favPics], which is then rendered in the JSX as {favPics}
+  // This works fine for the first 4 images on page load.
+  // The offset state is incremented by 4 so that the next time the function is called, i takes the value of 4 instead of zero.  When I log offset outside the function, the value is indeed 4.  BUT...
+  // when the handleScroll function is triggered, the offset state (which is assigned to i) is zero again, instead of 4.  Why is it zero instead of 4????  Being zero instead of 4 results in the same four pictures being returned and duplicate key values, which is no good.
 
   const addFourFavs = () => {
-    let fourMore = [];
+    let getFour = [];
     for (let i = offset; i < offset + 4 && i < totalFavPics; i++) {
+      console.log('i inside loop:', i);
+      console.log('offset inside loop:', offset);
       if (i % 2 === 0 && favsData[i].url !== '') {
-        console.log('i from within even push', i);
-        fourMore.push(<BodyDogImgLeft key={i} dog={props.dog} img={favsData[i].url} caption={favsData[i].caption} alt={`${i + 1} of ${favsData.length} additional photos of ${props.dog.name}`} />);
-        console.log(fourMore);
+        getFour.push(<BodyDogImgLeft key={i} dog={props.dog} img={favsData[i].url} caption={favsData[i].caption} alt={`${i + 1} of ${favsData.length} additional photos of ${props.dog.name}`} />);
       }
       if (i % 2 !== 0 && favsData[i].url !== '') {
-        console.log('i from within odd push', i);
-        fourMore.push(<BodyDogImgRight key={i} dog={props.dog} img={favsData[i].url} caption={favsData[i].caption} alt={`${i + 1} of ${favsData.length} additional photos of ${props.dog.name}`} />);
+        getFour.push(<BodyDogImgRight key={i} dog={props.dog} img={favsData[i].url} caption={favsData[i].caption} alt={`${i + 1} of ${favsData.length} additional photos of ${props.dog.name}`} />);
       }
     }
-    setFavPics((prevFavPics) => [...prevFavPics, ...fourMore]);
+    setFavPics((prevFavPics) => [...prevFavPics, ...getFour]);
     setOffset((prevOffset) => (prevOffset += 4));
   };
-
-  // console.log('4,5,2,1 | 3,7,6,10 | 9, 8, 12 ', favPics);
-  // console.log('Offset +4 each time', offset);
 
   const handleScroll = (e) => {
     if (window.innerHeight + e.target.documentElement.scrollTop + 1 >= e.target.documentElement.scrollHeight) {
       addFourFavs();
     }
   };
+
+  console.log('favPics from outside func:', favPics);
+  console.log('offset from outside func:', offset);
 
   useEffect(() => {
     addFourFavs();
@@ -67,7 +58,7 @@ const BodyDog = (props) => {
       <BodyDogImgLeft dog={props.dog} img={props.dog.images.adultBest[0].url} caption={props.dog.images.adultBest[0].caption} alt="1 of 2 best photos" />
       <BodyDogImgRight dog={props.dog} img={props.dog.images.adultBest[1].url2} caption={props.dog.images.adultBest[1].caption2} alt="2 of 2 best photos" />
       {favPics}
-      <p className={styles.copyright}>&copy; Bryan Neuswanger 2022. All rights reserved.</p>
+      <p className={styles.copyright}>&copy; 2022. All rights reserved.</p>
     </main>
   );
 };
