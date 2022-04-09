@@ -11,6 +11,7 @@ module.exports.dogs = [
     images: {
       profile: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648738904/Dog%20Project/Profile%20Square%20500px/PoohBear-Profile_tynm7q.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649456094/Dog%20Project/Profile%20Square%20500px/WebP/PoohBear-Profile_bqa5vv.webp',
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776354/Dog%20Project/Puppy%20500px%20high/PoohBear-Puppy_vnhydy.jpg',
@@ -70,6 +71,7 @@ module.exports.dogs = [
     images: {
       profile: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648738904/Dog%20Project/Profile%20Square%20500px/Shonka-Profile_rakr7h.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649456094/Dog%20Project/Profile%20Square%20500px/WebP/Shonka-Profile_zs2kie.webp',
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Shonka-Puppy_bazy3b.jpg',
@@ -121,6 +123,7 @@ module.exports.dogs = [
     images: {
       profile: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648738904/Dog%20Project/Profile%20Square%20500px/Mishka-Profile_yzrzoi.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649456094/Dog%20Project/Profile%20Square%20500px/WebP/Mishka-Profile_qqlyd7.webp',
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Mishka-Puppy_jalyri.jpg',
@@ -172,6 +175,7 @@ module.exports.dogs = [
     images: {
       profile: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Keenai-Profile_cwwbwg.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649456095/Dog%20Project/Profile%20Square%20500px/WebP/Keenai-Profile_sy1f35.webp',
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648784926/Dog%20Project/Puppy%20500px%20high/Keenai-Puppy_ervvkg.jpg',
@@ -247,6 +251,7 @@ module.exports.dogs = [
     images: {
       profile: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697378/Dog%20Project/Profile%20Square%20500px/Sunny-Profile_zlmx7u.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649456094/Dog%20Project/Profile%20Square%20500px/WebP/Sunny-Profile_xrfrch.webp',
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Sunny-Puppy_uhukrx.jpg',
@@ -298,6 +303,7 @@ module.exports.dogs = [
     images: {
       profile: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Taiga-Profile_wqccxk.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649456094/Dog%20Project/Profile%20Square%20500px/WebP/Taiga-Profile_txeo6q.webp',
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Taiga-Puppy_yesfwa.jpg',
@@ -305,34 +311,41 @@ module.exports.dogs = [
       },
       adultBest: [
         {
-          url: 'rename pic adultBest1.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471007/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w_wc1aqy.jpg',
+          caption: 'Taiga eating her first cow.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471008/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w_jycovo.webp',
         },
         {
-          url2: 'rename pic adultBest2.jpg',
-          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471007/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w-3_jjuobd.jpg',
+          caption2: 'Taiga temporarily dons the role of "elf" at the annual holiday gathering.',
+          webp2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471008/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w-3_ih1jgg.webp',
         },
       ],
       adultFavs: [
         {
-          url: 'rename pic favs1.jpg',
-          caption: 'The National Weather Service has issued a severe shedding warning for the greater Fairbanks area.',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471007/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w-2_eblmsr.jpg',
+          caption: 'Taiga takes a break from leading the way on one of her many adventures.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471009/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w-2_fbinzj.webp',
         },
         {
-          url: 'rename pic favs2.jpg',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471008/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w-5_dgqgep.jpg',
           caption: "Look closely under Taiga's muzzle... there's the reason our hike ended sooner than planned! A three-hour drive through the middle of the night and $300 later, she's good as new.",
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471009/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w-5_srbbzs.webp',
         },
         {
-          url: 'rename pic favs3.jpg',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471008/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w-6_cgglsi.jpg',
           caption: 'Taiga looking eager as we head up Gunnysack Creek on a day hike.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471007/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w-6_uub8sh.webp',
         },
         {
-          url: 'rename pic favs4.jpg',
-          caption: 'So helpful.',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471007/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w-4_p8jtco.jpg',
+          caption: 'The National Weather Service has issued a severe shedding warning for the greater Fairbanks area.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471008/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w-4_jwaxmz.webp',
         },
         {
-          url: 'rename pic favs5.jpg',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471008/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w-7_txp2ok.jpg',
           caption: 'Taiga begging for a cookie after pulling us around the ski trails.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649471007/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Taiga/Taiga-500w-7_njyfrg.webp',
         },
       ],
     },
@@ -350,6 +363,7 @@ module.exports.dogs = [
     images: {
       profile: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648765246/Dog%20Project/Profile%20Square%20500px/Josey-Profile_xeovct.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649456094/Dog%20Project/Profile%20Square%20500px/WebP/Josey-Profile_ncysab.webp',
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Josey-Puppy_fpbuof.jpg',
@@ -401,6 +415,7 @@ module.exports.dogs = [
     images: {
       profile: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/TenBears-Profile_cwit2r.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649456094/Dog%20Project/Profile%20Square%20500px/WebP/TenBears-Profile_xfgkfi.webp',
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/TenBears-Puppy_s3k1s2.jpg',
@@ -453,6 +468,7 @@ module.exports.dogs = [
     images: {
       profile: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Holly-Profile_r2usbw.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649456094/Dog%20Project/Profile%20Square%20500px/WebP/Holly-Profile_q7oeeo.webp',
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Holly-Puppy_wbj62h.jpg',
@@ -504,6 +520,7 @@ module.exports.dogs = [
     images: {
       profile: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Nika-Profile_ehtvii.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649456094/Dog%20Project/Profile%20Square%20500px/WebP/Nika-Profile_k8vvox.webp',
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Nika-Puppy_h8c7ct.jpg',
@@ -555,6 +572,7 @@ module.exports.dogs = [
     images: {
       profile: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648697377/Dog%20Project/Profile%20Square%20500px/Loki-Profile_mlxhse.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649456095/Dog%20Project/Profile%20Square%20500px/WebP/Loki-Profile_vwsnou.webp',
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Loki-Puppy_ccs8tt.jpg',

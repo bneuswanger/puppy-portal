@@ -6,7 +6,7 @@
     margin-right: 1rem;
 }
 
-.profile>img {
+.img {
     display: flex;
     max-width: 300px;
     height: auto;
@@ -28,7 +28,7 @@
         margin: 1rem;
     }
 
-    .profile>img {
+    .img {
         max-width: none;
     }
 
@@ -40,7 +40,7 @@
 
 @media (max-width: 830px) {
 
-    .profile>img {
+    .img {
         max-width: none;
     }
 
@@ -52,7 +52,7 @@
 
 @media (max-width: 590px) {
 
-    .profile>img {
+    .img {
         max-width: 85vw;
     }
 
