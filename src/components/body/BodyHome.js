@@ -18,7 +18,8 @@ const BodyHome = (props) => {
           https://res.cloudinary.com/dktwpnsqc/image/upload/v1649372141/Dog%20Project/BodyHome%20pics/deck-dogs-1500w_kxmxqv.webp 1500w,
           https://res.cloudinary.com/dktwpnsqc/image/upload/v1649298992/Dog%20Project/BodyHome%20pics/deck-dogs-1500w_nosb5e.jpg 1500w,
           https://res.cloudinary.com/dktwpnsqc/image/upload/v1649372142/Dog%20Project/BodyHome%20pics/deck-dogs-3000w_x99onn.webp 3000w,
-          https://res.cloudinary.com/dktwpnsqc/image/upload/v1649298993/Dog%20Project/BodyHome%20pics/deck-dogs-3000w_ktnhd2.jpg 3000w"></source>
+          https://res.cloudinary.com/dktwpnsqc/image/upload/v1649298993/Dog%20Project/BodyHome%20pics/deck-dogs-3000w_ktnhd2.jpg 3000w"
+          />
           <img height="1520" width="3000" className={styles.img} src="https://res.cloudinary.com/dktwpnsqc/image/upload/v1649298992/Dog%20Project/BodyHome%20pics/deck-dogs-1500w_nosb5e.jpg 1500w" alt="3 dogs on porch"></img>
         </picture>
         <figcaption className={styles['hero-caption']}>(Left to Right) Holly, Ten Bears and Josey enjoying a crisp Fall afternoon.</figcaption>

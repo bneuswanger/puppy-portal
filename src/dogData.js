@@ -15,6 +15,7 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776354/Dog%20Project/Puppy%20500px%20high/PoohBear-Puppy_vnhydy.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/PoohBear-Puppy_ngowwf.webp',
         caption: 'Pooh Bear curled up for a nap after a hard afternoon of being a puppy.',
       },
       adultBest: [
@@ -74,6 +75,7 @@ module.exports.dogs = [
         webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649456094/Dog%20Project/Profile%20Square%20500px/WebP/Shonka-Profile_zs2kie.webp',
       },
       puppy: {
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/Shonka-Puppy_nyv2x0.webp',
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Shonka-Puppy_bazy3b.jpg',
         caption: "He may be tiny, but he's already figured it all out.",
       },
@@ -127,6 +129,7 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Mishka-Puppy_jalyri.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/Mishka-Puppy_u9gv6a.webp',
         caption: "One of Mishka's first adventures to the Chippewa Flowage!",
       },
       adultBest: [
@@ -179,6 +182,7 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648784926/Dog%20Project/Puppy%20500px%20high/Keenai-Puppy_ervvkg.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/Keenai-Puppy_tyrav8.webp',
         caption: 'On a chilly Fall afternoon, Keenai takes a break from playing in the carpet of yellow maple leaves to bond with Bryan.  Pretty good first day home, and far from the 85-lb moose he would soon become!',
       },
       adultBest: [
@@ -255,6 +259,7 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Sunny-Puppy_uhukrx.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/Sunny-Puppy_k5trmv.webp',
         caption: "Sunny's first boat ride!",
       },
       adultBest: [
@@ -307,6 +312,7 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Taiga-Puppy_yesfwa.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/Taiga-Puppy_nabga1.webp',
         caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
       },
       adultBest: [
@@ -356,7 +362,10 @@ module.exports.dogs = [
     deathDate: null,
     owners: 'Mom & Dad',
     breed: 'Rottweiler/Boxer',
-    genetics: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648939220/Dog%20Project/Genetics/DNA_Josey_k1jjoy.png',
+    genetics: {
+      url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648939220/Dog%20Project/Genetics/DNA_Josey_k1jjoy.png',
+      webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649519179/Dog%20Project/Genetics/webp/DNA_Josey_k1jjoy_nrehfe.webp',
+    },
     summary:
       'Josey… Queen Josephine… or simply Her Majesty… is a canine version of Cinderella.  Born into a litter whelped by a Reservation stray at the local shelter, our very own "Rez Mutt" began her royal career under Sunny\'s tutelage and grew into a gentle 94-pound beauty who now rules her Teal River Kingdom.  Part Rottweiler, part Pitbull, part lots-of-stuff, Josey carries her beautiful head and majestic tail with great dignity.  Her "spots" include the recliner (when Sandy wants it), the couch (when Dave wants it), Bryan\'s lap, and Sandy\'s pillows on the bed (whenever she wants).  Josey talks when she wants something (like solo mid-day walks with Dave) and speaks occasionally on behalf of Ten Bears - such a smart girl.',
     sex: 'female',
@@ -367,6 +376,7 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Josey-Puppy_fpbuof.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/Josey-Puppy_pi4qvw.webp',
         caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
       },
       adultBest: [
@@ -419,6 +429,7 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/TenBears-Puppy_s3k1s2.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/TenBears-Puppy_axhy8k.webp',
         caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
       },
       adultBest: [
@@ -461,9 +472,12 @@ module.exports.dogs = [
     deathDate: null,
     owners: 'Bryan',
     breed: 'Lab/Husky',
-    genetics: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648939220/Dog%20Project/Genetics/DNA_Holly_vgc0vb.png',
+    genetics: {
+      url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648939220/Dog%20Project/Genetics/DNA_Holly_vgc0vb.png',
+      webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649519179/Dog%20Project/Genetics/webp/DNA_Holly_vgc0vb_sypven.webp',
+    },
     summary:
-      'Holly was discovered by Bryan while still a shelter puppy in an attempt to at least partially fill the huge void left by Keenai’s passing.  Half lab combined with lots of other things resulted in a photogenic beauty similar to Taiga, with thick blonde hair that allows her to luxuriate in piles of snow.  Holly is very sweet and cuddly, but she has a stubborn, mischievous side that may have arisen from the “wild canid” in her ancestry.  She frequently steals socks and gloves and then ransoms them for treats.  Holly and Ten Bears will chase and play and yap and carry on for hours at a time.   The two are truly Best Friends Forever.',
+      "Holly was discovered by Bryan while still a shelter puppy in an attempt to at least partially fill the huge void left by Keenai's passing.  Half lab combined with lots of other things resulted in a photogenic beauty similar to Taiga, with thick blonde hair that allows her to luxuriate in piles of snow.  Holly is very sweet and cuddly, but she has a stubborn, mischievous side that may have arisen from the 2% wolf in her ancestry.  She frequently steals socks and gloves and then ransoms them for treats.  Holly and Ten Bears will chase and play and yap and carry on for hours at a time.   The two are truly Best Friends Forever.",
     sex: 'female',
     images: {
       profile: {
@@ -472,6 +486,7 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Holly-Puppy_wbj62h.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/Holly-Puppy_phorw0.webp',
         caption: 'Bryan knew he had brought home a pup... but he did not realize it was a fur seal pup.',
       },
       adultBest: [
@@ -524,6 +539,7 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Nika-Puppy_h8c7ct.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/Nika-Puppy_bufrxo.webp',
         caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
       },
       adultBest: [
@@ -576,6 +592,7 @@ module.exports.dogs = [
       },
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Loki-Puppy_ccs8tt.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/Loki-Puppy_ugggf2.webp',
         caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
       },
       adultBest: [
