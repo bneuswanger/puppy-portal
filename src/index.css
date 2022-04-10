@@ -1,19 +1,14 @@
 /* font-family: 'Gluten', cursive; */
-/* Before deployment, check which font weights I've used and import only those */
-/* Available: 100-900 */
-@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
-
-/* font-family: 'Lemonada', cursive; */
-/* Available: 300-700 */
-@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
+/* Available: 100-900 - If wanting to expand in future, change URL from @500 to @100..900 to get the full range */
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@500&display=swap');
 
 /* font-family: 'Epilogue', sans-serif; */
 /* Available: 100-900 */
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..500;1,400..500&display=swap');
 
 /* font-family: 'Markazi Text', serif; */
 /* Available: 400-700 */
-@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@650&display=swap');
 
 :root {
   --color-accent-dark: #41474d;
@@ -22,7 +17,7 @@
   --color-primary-inner-gradient: hsl(200, 80%, 98%);
   --color-primary-alt: hsl(32, 100%, 68%);
   --color-primary-alt-inner-gradient: hsl(42, 100%, 88%);
-  --color-primary-alt-lighter: hsl(32, 100%, 72%);
+  --color-primary-alt-lighter: hsl(32, 100%, 78%);
   --color-text-dark: rgb(55, 57, 61);
   --color-text-light: rgb(55, 57, 61, .6);
   --color-text-link: rgb(0, 0, 255);
