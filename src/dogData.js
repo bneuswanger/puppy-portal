@@ -475,6 +475,21 @@ module.exports.dogs = [
           caption: "Keeping Sandy's chair warm until she returns... whereupon Josey will remain dedicated to her task of keeping Sandy's chair warm.",
           webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649528826/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Josey/webp/Josey-500h-10_gk4akc.webp',
         },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543019/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Josey/Josey-003-500h_s5u8te.jpg',
+          caption: 'As noted before... Josey still keeping the chair warm.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543034/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Josey/webp/Josey-003-500h_qgvmjj.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543018/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Josey/Josey-001-500h_jxojyb.jpg',
+          caption: 'Pretty girl taking a break from sniffing.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543034/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Josey/webp/Josey-001-500h_pa2he8.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543018/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Josey/Josey-002-500h_cjoy5u.jpg',
+          caption: "It's a tough life...but some dog has to live it.",
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543034/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Josey/webp/Josey-002-500h_sfjk3i.webp',
+        },
       ],
     },
   },
@@ -495,38 +510,50 @@ module.exports.dogs = [
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/TenBears-Puppy_s3k1s2.jpg',
         webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/TenBears-Puppy_axhy8k.webp',
-        caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+        caption: 'Ten Bears being a cute little bugger.',
       },
       adultBest: [
         {
-          url: 'rename pic adultBest1.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-006-500h_gnx9pm.jpg',
+          caption: 'Ten Bears captaining the NuCanoe on a Fall ride up the Chippewa River.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543463/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-006-500h_vmmv6s.webp',
         },
         {
-          url2: 'rename pic adultBest2.jpg',
-          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543451/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-007-500h_rl3kcr.jpg',
+          caption2: 'Engaged in his most favorite hobby...',
+          webp2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543464/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-007-500h_mc5crs.webp',
         },
       ],
       adultFavs: [
         {
-          url: 'rename pic favs1.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-008-500h_r8ilwn.jpg',
+          caption: "...and trying to keep Holly from 'getting it'!",
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543464/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-008-500h_tutyyu.webp',
         },
         {
-          url: 'rename pic favs2.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543453/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-003-500h_bks6dr.jpg',
+          caption: 'Smelling the smells on the Teal River in early Spring.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543463/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-003-500h_alpy9e.webp',
         },
         {
-          url: 'rename pic favs3.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-001-500h_qtfbwm.jpg',
+          caption: 'Where are the ducks??',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543464/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-001-500h_ixyh2l.webp',
         },
         {
-          url: 'rename pic favs4.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-002-500h_sfs8ne.jpg',
+          caption: 'Chewing on a blue fluffy.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543463/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-002-500h_gofds3.webp',
         },
         {
-          url: 'rename pic favs5.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-004-500h_bwn6q5.jpg',
+          caption: 'Going with on the boat is much fun!',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543464/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-004-500h_k9xst7.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-005-500h_rjjxtn.jpg',
+          caption: 'Fetching birds on the beach with his buddy, Holly.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543463/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-005-500h_udszbj.webp',
         },
       ],
     },
@@ -542,7 +569,7 @@ module.exports.dogs = [
       webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649519179/Dog%20Project/Genetics/webp/DNA_Holly_vgc0vb_sypven.webp',
     },
     summary:
-      "Holly was discovered by Bryan while still a shelter puppy in an attempt to at least partially fill the huge void left by Keenai's passing.  Half lab combined with lots of other things resulted in a photogenic beauty similar to Taiga, with thick blonde hair that allows her to luxuriate in piles of snow.  Holly is very sweet and cuddly, but she has a stubborn, mischievous side that may have arisen from the 2% wolf in her ancestry.  She frequently steals socks and gloves and then ransoms them for treats.  Holly and Ten Bears will chase and play and yap and carry on for hours at a time.   The two are truly Best Friends Forever.",
+      "Holly (aka. Holly-Bear) was discovered by Bryan while still a shelter puppy in an attempt to at least partially fill the huge void left by Keenai's passing.  Half lab combined with lots of other things resulted in a photogenic beauty similar to Taiga, with thick blonde hair that allows her to luxuriate in piles of snow.  Holly is very sweet and cuddly, but she has a stubborn, mischievous side that may have arisen from the 2% wolf in her ancestry.  She frequently steals socks and gloves and then ransoms them for treats.  Holly and Ten Bears will chase and play and yap and carry on for hours at a time.   The two are truly Best Friends Forever.",
     sex: 'female',
     images: {
       profile: {
@@ -556,34 +583,161 @@ module.exports.dogs = [
       },
       adultBest: [
         {
-          url: 'rename pic adultBest1.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544209/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-010-500h_s5xkoe.jpg',
+          caption: 'Holly loves to swim and "muskrat around" in the shallows.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544219/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-010-500h_ymsepo.webp',
         },
         {
-          url2: 'rename pic adultBest2.jpg',
-          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544208/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-003-500h_vewzl9.jpg',
+          caption2: 'When the "muskratting" is done, it\'s time to relax.',
+          webp2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544218/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-003-500h_kdfchj.webp',
         },
       ],
       adultFavs: [
         {
-          url: 'rename pic favs1.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544210/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-016-500h_jpew3y.jpg',
+          caption: "Holly's first day home was full of exploration.",
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544220/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-016-500h_sh6xxb.webp',
         },
         {
-          url: 'rename pic favs2.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544209/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-013-500h_cw0k8q.jpg',
+          caption: 'And lots of stick demolition!',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544220/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-013-500h_wzpizk.webp',
         },
         {
-          url: 'rename pic favs3.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544211/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-017-500h_k60pzw.jpg',
+          caption: 'And of course, there are a lot of sticks, and they all must be demolished.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544220/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-017-500h_afosyx.webp',
         },
         {
-          url: 'rename pic favs4.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544210/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-015-500h_uuqzpt.jpg',
+          caption: '"Who, me?"  Already looking guilty and not caring!',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544220/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-015-500h_ldoij7.webp',
         },
         {
-          url: 'rename pic favs5.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544208/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-001-500h_f5idm6.jpg',
+          caption: 'Being a COVID-puppy, Holly practiced social distancing.  But she made up for lost time when Ten Bears could safely visit!',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544218/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-001-500h_tz9oid.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544211/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-020-500h_xlsqfl.jpg',
+          caption: 'Holly was a bit viscious at first, but these two really grew to be best friends pretty quickly...',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544221/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-020-500h_ulb44n.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544210/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-012-500h_p9w6mf.jpg',
+          caption: '...as you can clearly tell.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544220/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-012-500h_ms9ikq.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544207/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-002-500h_mxy19g.jpg',
+          caption: 'When it comes to "muskratting around", pulling up to a log under the dock and chewing on weeds and bark is exactly what the muskrat ordered.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544218/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-002-500h_vkgsxl.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544208/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-009-500h_chqppo.jpg',
+          caption: 'But "muskratting" also takes the form of chasing ducks so far down the shoreline that Bryan has to pull her from the water and ferry her back on the kayak.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544219/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-009-500h_oxc5fv.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544209/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-011-500h_krbiox.jpg',
+          caption: '"Muskratting" can also take place on land, as Holly demonstrates by demolishing an expired pepper plant.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544219/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-011-500h_f0akyb.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544208/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-008-500h_ejdvby.jpg',
+          caption: 'And sometimes you just need to dig a hole and show absolutely zero remorse for what you\'ve done... this type of behavior (among others) earned Holly the nickname of "dirt bear".',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544219/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-008-500h_wxdxbk.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544211/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-021-500h_kdu996.jpg',
+          caption: 'At least her looks help make up for her mischievous side!',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544221/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-021-500h_zmwah7.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544211/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-022-500h_zbcx6p.jpg',
+          caption: 'A tough life, but somedoggy has to live it.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544221/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-022-500h_w1xyyr.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544207/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-006-500h_ldveqi.jpg',
+          caption: "One of her favorite perches - on Bryan's bass amp with a clear view from the 2nd story window.",
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544219/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-006-500h_cxgvzp.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544207/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-004-500h_hrvalx.jpg',
+          caption: 'Having such thick fur on a hot summer day often necessitates splashing ice water all over the floor to extract a single ice cube for partial consumption on the carpet.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544218/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-004-500h_ahzdxv.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544208/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-007-500h_jvuxfn.jpg',
+          caption: 'One of her favorite things is to "go for a ride" with Bryan as he bikes.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544218/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-007-500h_apnz9j.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544210/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-005-500h_jqrg3l.jpg',
+          caption: 'Holly was quite a terror as a puppy, but putting her in the boat instantly produced a different animal... she immediately calmed down and refused to get in trouble.  She was quite the catch...she even netted herself!',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544219/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-005-500h_fzxic5.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544211/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-018-500h_ldocy2.jpg',
+          caption: 'Holly\'s first fish -- a spring crappie!  "Eww..." she says.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544220/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-018-500h_ryxpbi.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544211/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-019-500h_ldxpwa.jpg',
+          caption: '"Oh, a different kind of fish?  Still gross."',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544221/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-019-500h_ftlfs6.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544211/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-023-500h_tojlf8.jpg',
+          caption: 'One of her favorite toys is a NEARLY indestructible Kong frisbee.  Once you get a puncture started, the shred game is afoot!',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544221/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-023-500h_hxzlfc.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544212/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-029-500h_pxoa00.jpg',
+          caption: 'A very happy dog with family and frisbees all around for the holidays!',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544222/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-029-500h_flky1n.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544213/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-031-500h_prnvub.jpg',
+          caption: 'Sometimes, when she is tired, Holly "wears her tail down" for fleeting moments.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544223/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-031-500h_kj2hyq.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544213/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-032-500h_tekpng.jpg',
+          caption: "One of her favorite indoor activities is stealing socks and playing keep-away with them.  Here she lords over a deer antler with her prized stolen socks.  Even if you believe you've carefully placed your socks in a safe place... she will find them.",
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544223/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-032-500h_pce1sy.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544212/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-024-500h_mdjtf3.jpg',
+          caption: "Clearly, Holly's favorite thing to do is to access her internal sled-dog and lay in the snow.  As soon as the first snow falls, Bryan shovels the snow into a pile for her to lay in, which she does -- promptly.",
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544222/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-024-500h_tdh4pf.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544212/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-025-500h_xgyia3.jpg',
+          caption: 'And she will bury her face in it...',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544222/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-025-500h_iyacwg.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544212/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-026-500h_aspa8p.jpg',
+          caption: '...and she will build a nest on a big snow mound...',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544222/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-026-500h_db0gbb.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544213/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-030-500h_jcsftw.jpg',
+          caption: '...and she will chisel into the side of a snow mountain...',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544223/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-030-500h_b48zcv.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544212/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-027-500h_awvuzn.jpg',
+          caption: '...and she will even sit calmly while Bryan buries her in fresh snow...',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544222/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-027-500h_vncwkt.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544212/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/Holly-028-500h_zy6hvg.jpg',
+          caption: '...anything for her beloved SNOW!',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544222/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Holly/webp/Holly-028-500h_gqhdal.webp',
         },
       ],
     },
@@ -605,7 +759,7 @@ module.exports.dogs = [
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Nika-Puppy_h8c7ct.jpg',
         webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/Nika-Puppy_bufrxo.webp',
-        caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+        caption: 'If any puppy could pass for Alf...',
       },
       adultBest: [
         {
@@ -665,38 +819,55 @@ module.exports.dogs = [
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Loki-Puppy_ccs8tt.jpg',
         webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/Loki-Puppy_ugggf2.webp',
-        caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+        caption: 'puppy standing over toy blue leash',
       },
       adultBest: [
         {
-          url: 'rename pic adultBest1.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544167/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/Loki-005-500h_omkxf3.jpg',
+          caption: 'standing in stream',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544175/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/webp/Loki-005-500h_ocnces.webp',
         },
         {
-          url2: 'rename pic adultBest2.jpg',
-          caption2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544167/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/Loki-001-500h_onsinu.jpg',
+          caption2: 'Puppy standing on log',
+          webp2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544176/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/webp/Loki-001-500h_wfzdz0.webp',
         },
       ],
       adultFavs: [
         {
-          url: 'rename pic favs1.jpg',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544166/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/Loki-008-500h_bo3gdc.jpg',
           caption: "Some would say there's more to life than tennis balls. Not Loki, though.",
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544175/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/webp/Loki-008-500h_mpq8ds.webp',
         },
         {
-          url: 'rename pic favs2.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544166/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/Loki-006-500h_gydwpi.jpg',
+          caption: 'Waterfall on the Dosewallips River, Olympic Peninsula',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544175/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/webp/Loki-006-500h_m7o846.webp',
         },
         {
-          url: 'rename pic favs3.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544166/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/Loki-009-500h_b3om9e.jpg',
+          caption: 'So helpful.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544176/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/webp/Loki-009-500h_gcenj7.webp',
         },
         {
-          url: 'rename pic favs4.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544167/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/Loki-002-500h_lgflsu.jpg',
+          caption: 'puppy sitting on grass looking up',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544176/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/webp/Loki-002-500h_kqhuli.webp',
         },
         {
-          url: 'rename pic favs5.jpg',
-          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem libero veritatis dignissimos quod reprehenderit fugiat eos, perferendis esse exercitationem!',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544167/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/Loki-003-500h_mqrffp.jpg',
+          caption: 'adult on beach',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544176/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/webp/Loki-003-500h_r04rok.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544166/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/Loki-004-500h_yphhmo.jpg',
+          caption: 'running with toy',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544175/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/webp/Loki-004-500h_q5srlp.webp',
+        },
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544166/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/Loki-007-500h_pivws1.jpg',
+          caption: "sitting on Jason's face",
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649544175/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Loki/webp/Loki-007-500h_hywbd6.webp',
         },
       ],
     },
