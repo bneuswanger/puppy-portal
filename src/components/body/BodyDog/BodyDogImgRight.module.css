@@ -8,9 +8,9 @@
 
 .figure>img {
     max-width: 600px;
-    max-height: 300px;
+    max-height: 400px;
     border-radius: 1rem;
-    box-shadow: 0px 2px 5px rgb(61, 61, 61, .4);
+    box-shadow: 0px 2px 5px var(--color-box-shadow);
 
 }
 

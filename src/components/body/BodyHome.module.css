@@ -22,8 +22,8 @@
     margin-top: 1rem;
     width: 100%;
     height: auto;
-    border: 2px solid #515152;
-    box-shadow: 2px 4px 8px rgb(81, 81, 82, .6);
+    border: 2px solid var(--color-accent-dark);
+    box-shadow: 2px 4px 8px var(--color-box-shadow);
 }
 
 .hero-figure {
@@ -35,7 +35,7 @@
 .hero-caption {
     text-align: left;
     font-size: 15px;
-    color: rgba(55, 57, 61, .7);
+    color: var(--color-text-light);
     position: relative;
     left: 10px;
     line-height: 20px;
@@ -44,7 +44,7 @@
 .copyright {
     margin-top: 5rem;
     font-size: smaller;
-    color: rgba(55, 57, 61, .7);
+    color: var(--color-text-light);
 }
 
 @media (max-width: 1070px) {

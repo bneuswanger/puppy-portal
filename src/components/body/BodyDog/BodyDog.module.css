@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-shadow: -1px -1px 5px rgb(97, 95, 95, .4);
     padding: 2rem;
     line-height: 2rem;
     margin-top: 0px;
@@ -13,7 +12,7 @@
 .copyright {
     margin-top: 5rem;
     font-size: smaller;
-    color: rgba(55, 57, 61, .7);
+    color: var(--color-text-light);
 }
 
 

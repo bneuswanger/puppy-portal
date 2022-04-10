@@ -6,23 +6,22 @@ nav {
     position: sticky;
     z-index: 1;
     top: 0;
-    background: #ffb35c;
-    background: linear-gradient(90deg, #ffb35c 0%, #fffecb 48%, #ffb35c 100%);
-    border-top: 2px solid #515152;
+    background: var(--color-primary-alt);
+    background: linear-gradient(90deg, var(--color-primary-alt) 0%, var(--color-primary-alt-inner-gradient) 50%, var(--color-primary-alt) 100%);
+    border-top: 2px solid var(--color-accent-dark);
 }
 
 ul {
     display: flex;
     justify-content: center;
-    background: #ffb35c;
+    background: var(--color-primary-alt);
     height: 50px;
-    background: linear-gradient(90deg, #ffb35c 0%, #fffecb 48%, #ffb35c 100%);
-    border-bottom: 2px solid #515152;
+    background: linear-gradient(90deg, var(--color-primary-alt) 0%, var(--color-primary-alt-inner-gradient) 50%, var(--color-primary-alt) 100%);
+    border-bottom: 2px solid var(--color-accent-dark);
 }
 
 li {
     font-size: 1.5rem;
-    color: #ffffff;
     user-select: none;
     font-family: 'Markazi Text', serif;
     font-weight: 650;
@@ -30,21 +29,20 @@ li {
     padding-bottom: 10px;
     padding-right: 13px;
     padding-left: 13px;
-    color: rgb(3, 5, 27);
+    color: var(--color-text-dark);
 }
-
-
-
 
 .home:hover {
     cursor: pointer;
     color: white;
+    transition: color .2s ease-in;
 }
 
 .inactive:hover {
     cursor: pointer;
     color: white;
-    background-color: #7e7e7e;
+    background-color: var(--color-text-light);
+    transition: .2s ease-in;
 }
 
 
@@ -57,7 +55,7 @@ li:last-of-type {
 }
 
 .active {
-    background-color: #515152;
+    background-color: var(--color-accent-dark);
     color: white;
 }
 
@@ -81,7 +79,7 @@ li:last-of-type {
     nav {
         height: 50px;
         padding-top: 48px;
-        border-bottom: 2px solid #515152;
+        border-bottom: 2px solid var(--color-accent-dark);
     }
 
     ul {
@@ -96,8 +94,7 @@ li:last-of-type {
         padding-right: 5px;
         padding-left: 5px;
         margin-right: 0rem;
-        color: #03051b;
-        border-top: 1px solid rgb(53, 53, 53);
+        border-top: 1px solid var(--color-accent-dark);
     }
 
     li:first-of-type {
@@ -117,7 +114,7 @@ li:last-of-type {
     .home:hover {
         cursor: pointer;
         color: white;
-        background-color: #7e7e7e;
+        background-color: var(--color-text-light);
     }
 
 }

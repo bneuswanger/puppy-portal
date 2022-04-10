@@ -8,17 +8,18 @@
 
 
 .smallText {
-    font-size: .7rem;
+    font-size: .8rem;
 }
 
 .genetics {
-    font-size: .7rem;
-    color: rgb(0, 0, 255);
+    font-size: .8rem;
+    color: var(--color-text-link);
     cursor: pointer;
 }
 
 .genetics:hover {
-    color: rgb(0, 0, 255, .7);
+    color: var(--color-text-link-hover);
+    text-decoration: underline;
 }
 
 

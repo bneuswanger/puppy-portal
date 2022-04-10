@@ -15,6 +15,19 @@
 /* Available: 400-700 */
 @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
 
+:root {
+  --color-accent-dark: #41474d;
+  --color-box-shadow: rgb(61, 61, 61, .4);
+  --color-primary: hsl(200, 100%, 88%);
+  --color-primary-inner-gradient: hsl(200, 80%, 98%);
+  --color-primary-alt: hsl(32, 100%, 68%);
+  --color-primary-alt-inner-gradient: hsl(42, 100%, 88%);
+  --color-primary-alt-lighter: hsl(32, 100%, 72%);
+  --color-text-dark: rgb(55, 57, 61);
+  --color-text-light: rgb(55, 57, 61, .6);
+  --color-text-link: rgb(0, 0, 255);
+  --color-text-link-hover: rgb(0, 0, 255, .7);
+}
 
 body, div, dl, dt, dd, figure, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
 form, fieldset, input, p, blockquote, table, th, td, embed, object {
@@ -60,5 +73,5 @@ html {
 }
 
 body {
-  background: #515152;
+  background: var(--color-accent-dark);
 }
