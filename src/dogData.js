@@ -150,9 +150,9 @@ module.exports.dogs = [
       },
       adultBest: [
         {
-          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649018773/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Mishka/Mishka-FavoriteThings-05_uvqsco.jpg',
-          caption: 'Lording proudly over his captured ball.',
-          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649527820/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Mishka/webp/Mishka-FavoriteThings-05_qjonc1.webp',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649018774/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Mishka/Mishka-FavoriteThings-01_vknmxj.jpg',
+          caption: '"This doesn\'t smell like anything, but I like it anyway!"',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649527820/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Mishka/webp/Mishka-FavoriteThings-01_szy8xa.webp',
         },
         {
           url2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649018773/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Mishka/Mishka-FavoriteThings-02_jsvf3z.jpg',
@@ -162,9 +162,9 @@ module.exports.dogs = [
       ],
       adultFavs: [
         {
-          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649018774/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Mishka/Mishka-FavoriteThings-01_vknmxj.jpg',
-          caption: '"This doesn\'t smell like anything, but I like it anyway!"',
-          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649527820/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Mishka/webp/Mishka-FavoriteThings-01_szy8xa.webp',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649018773/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Mishka/Mishka-FavoriteThings-05_uvqsco.jpg',
+          caption: 'Lording proudly over his captured ball.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649527820/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Mishka/webp/Mishka-FavoriteThings-05_qjonc1.webp',
         },
         {
           url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649018773/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Mishka/Mishka-FavoriteThings-03_bhgyiv.jpg',
@@ -508,42 +508,43 @@ module.exports.dogs = [
         webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649456094/Dog%20Project/Profile%20Square%20500px/WebP/TenBears-Profile_xfgkfi.webp',
       },
       puppy: {
-        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/TenBears-Puppy_s3k1s2.jpg',
-        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/TenBears-Puppy_axhy8k.webp',
-        caption: 'Ten Bears being a cute little bugger.',
+        url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-001-500h_qtfbwm.jpg',
+        webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543464/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-001-500h_ixyh2l.webp',
+        caption: 'Can I come home with you, please!?',
       },
       adultBest: [
         {
-          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-006-500h_gnx9pm.jpg',
-          caption: 'Ten Bears captaining the NuCanoe on a Fall ride up the Chippewa River.',
-          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543463/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-006-500h_vmmv6s.webp',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/TenBears-Puppy_s3k1s2.jpg',
+          caption: 'Ten Bears being a cute little bugger.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/TenBears-Puppy_axhy8k.webp',
         },
         {
-          url2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543451/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-007-500h_rl3kcr.jpg',
-          caption2: 'Engaged in his most favorite hobby...',
-          webp2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543464/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-007-500h_mc5crs.webp',
+          url2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-002-500h_sfs8ne.jpg',
+          caption2: 'Cuddling with his bedtime buddies.',
+          webp2: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543463/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-002-500h_gofds3.webp',
         },
       ],
       adultFavs: [
+        {
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543451/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-007-500h_rl3kcr.jpg',
+          caption: 'Engaged in his most favorite hobby...',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543464/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-007-500h_mc5crs.webp',
+        },
         {
           url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-008-500h_r8ilwn.jpg',
           caption: "...and trying to keep Holly from 'getting it'!",
           webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543464/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-008-500h_tutyyu.webp',
         },
         {
-          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-001-500h_qtfbwm.jpg',
-          caption: 'Can I come home with you, please!?',
-          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543464/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-001-500h_ixyh2l.webp',
+          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-006-500h_gnx9pm.jpg',
+          caption: 'Ten Bears captaining the NuCanoe on a Fall ride up the Chippewa River.',
+          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543463/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-006-500h_vmmv6s.webp',
         },
+
         {
           url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543453/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-003-500h_bks6dr.jpg',
           caption: 'Smelling the smells on the Teal River in early Spring.',
           webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543463/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-003-500h_alpy9e.webp',
-        },
-        {
-          url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-002-500h_sfs8ne.jpg',
-          caption: 'Cuddling with his bedtime buddies.',
-          webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543463/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/webp/Ten_Bears-002-500h_gofds3.webp',
         },
         {
           url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649543452/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Ten%20Bears/Ten_Bears-004-500h_bwn6q5.jpg',

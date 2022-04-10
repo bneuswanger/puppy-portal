@@ -216,7 +216,7 @@ const BodyDogHeader = (props) => {
       {props.dog.genetics && (
         <div>
           <span className={styles.genetics} onClick={toggleGenetics}>
-            Wisdom Panel Genetics
+            Genetic Analysis Results
           </span>
         </div>
       )}

@@ -14,5 +14,3 @@ const BodyDogImgRight = (props) => {
 };
 
 export default BodyDogImgRight;
-
-//pass in caption, img, and alt text
