@@ -19,7 +19,7 @@ const BodyDogHeader = (props) => {
 
   return (
     <div>
-      {isGeneticsShown && <ImageModal btnText={'Close'} mime={'png'} url={genetics.url} webp={genetics.webp} onDismiss={toggleGenetics} />}
+      {isGeneticsShown && <ImageModal btnText={'Close'} mime={'png'} url={genetics.url} name={name} webp={genetics.webp} onDismiss={toggleGenetics} />}
       <h1>{name}</h1>
       <div>
         <img className={styles.genderIcon} src={sex === 'female' ? female : male} alt={sex === 'female' ? 'female dog' : 'male dog'}></img>

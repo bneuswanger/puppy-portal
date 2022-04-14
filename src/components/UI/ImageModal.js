@@ -1,14 +1,14 @@
 import styles from './ImageModal.module.css';
 import DangerButton from './DangerButton';
 
-const ImageModal = ({ onDismiss, webp, url, mime, btnText }) => {
+const ImageModal = ({ onDismiss, webp, url, mime, btnText, name }) => {
   return (
     <div>
       <div className={styles.backdrop} onClick={onDismiss} />
       <picture className={styles['image-wrapper']}>
         <source srcSet={webp} type="image/webp" />
         <source srcSet={url} type={`image/${mime}`} />
-        <img src={url} className={styles.image} />
+        <img src={url} className={styles.image} alt={`Genetics report for ${name}`} />
         <DangerButton onClick={onDismiss} btnText={btnText}></DangerButton>
       </picture>
     </div>
