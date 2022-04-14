@@ -13,7 +13,7 @@
     color: var(--color-text-dark);
     align-self: center;
     user-select: none;
-    box-shadow: 2px 2px 3px var(--color-box-shadow);
+    box-shadow: 0px 0px 8px var(--color-box-shadow);
 }
 
 .button:hover {

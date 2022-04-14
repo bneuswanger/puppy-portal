@@ -1,13 +1,13 @@
 import styles from './BodyDogImgLeft.module.css';
 
-const BodyDogImgLeft = (props) => {
+const BodyDogImgLeft = ({ webp, img, alt, caption }) => {
   return (
     <figure>
       <picture className={styles.figure}>
-        <source srcSet={props.webp} type="image/webp" />
-        <source srcSet={props.img} type="image/jpeg" />
-        <img loading="lazy" src={props.img} alt={props.alt} />
-        <figcaption className={styles.caption}>{props.caption}</figcaption>
+        <source srcSet={webp} type="image/webp" />
+        <source srcSet={img} type="image/jpeg" />
+        <img loading="lazy" src={img} alt={alt} />
+        <figcaption className={styles.caption}>{caption}</figcaption>
       </picture>
     </figure>
   );

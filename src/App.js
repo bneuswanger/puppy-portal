@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styles from './App.module.css';
-
-import dogData from './dogData';
+import dogData from './utils/dogData';
 import Navbar from './components/navbar/Navbar';
 import BodyCard from './components/body/BodyCard';
 import BodyHome from './components/body/BodyHome';

@@ -1,7 +1,7 @@
 import styles from './BodyHome.module.css';
 import paw from '../../assets/paw.svg';
 
-const BodyHome = (props) => {
+const BodyHome = () => {
   return (
     <main className={styles.main}>
       <h1 className={styles['title-text']}>Our humans built us a website.</h1>
