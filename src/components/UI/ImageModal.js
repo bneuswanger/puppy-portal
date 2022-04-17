@@ -1,17 +1,28 @@
 import styles from './ImageModal.module.css';
 import DangerButton from './DangerButton';
+import React, { Fragment } from 'react';
+import ReactDOM from 'react-dom';
 
-const ImageModal = ({ onDismiss, webp, url, mime, btnText, name }) => {
+const Backdrop = (props) => {
+  return <div className={styles.backdrop} onClick={props.onDismiss} />;
+};
+
+const ModalOverlay = ({ onDismiss, webp, url, mime, btnText, named }) => {
   return (
-    <div>
-      <div className={styles.backdrop} onClick={onDismiss} />
-      <picture className={styles['image-wrapper']}>
-        <source srcSet={webp} type="image/webp" />
-        <source srcSet={url} type={`image/${mime}`} />
-        <img src={url} className={styles.image} alt={`Genetics report for ${name}`} />
-        <DangerButton onClick={onDismiss} btnText={btnText}></DangerButton>
-      </picture>
-    </div>
+    <picture className={styles['image-wrapper']}>
+      <source srcSet={webp} type="image/webp" />
+      <source srcSet={url} type={`image/${mime}`} />
+      <img src={url} className={styles.image} alt={`Genetics report for ${named}`} />
+      <DangerButton onClick={onDismiss} btnText={btnText}></DangerButton>
+    </picture>
+  );
+};
+
+const ImageModal = (props) => {
+  return (
+    <Fragment>
+      {ReactDOM.createPortal(<Backdrop onDismiss={props.onDismiss} />, document.getElementById('backdrop-root'))};{ReactDOM.createPortal(<ModalOverlay onDismiss={props.onDismiss} webp={props.webp} url={props.url} mime={props.mime} btnText={props.btnText} named={props.named} />, document.getElementById('overlay-root'))}
+    </Fragment>
   );
 };
 
