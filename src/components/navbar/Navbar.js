@@ -1,7 +1,7 @@
 import styles from './Navbar.module.css';
 import NavbarItem from './NavbarItem';
 import burger from '../../assets/burger.svg';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import BackToTopButton from '../UI/BackToTopButton';
 
 const Navbar = (props) => {
@@ -45,9 +45,10 @@ const Navbar = (props) => {
     scrollUp();
   };
 
-  const sortedByBirth = [...props.dogs].sort(function (a, b) {
-    return b.birthDate - a.birthDate;
-  });
+  const { dogs } = props;
+  const sortedByBirth = useMemo(() => {
+    return [...dogs].sort((a, b) => b.birthDate - a.birthDate);
+  }, [dogs]);
 
   return (
     <nav>
