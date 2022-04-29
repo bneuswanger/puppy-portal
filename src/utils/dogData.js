@@ -296,12 +296,12 @@ module.exports.dogs = [
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776353/Dog%20Project/Puppy%20500px%20high/Sunny-Puppy_uhukrx.jpg',
         webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/Sunny-Puppy_k5trmv.webp',
-        caption: "Sunny's first boat ride!",
+        caption: 'Sunny staying close to the deck on his first boat ride!',
       },
       adultBest: [
         {
           url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649023781/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Sunny/Sunny-FavoriteThings-03_gzf550.jpg',
-          caption: 'Sunny staying close to the deck on his first boat ride!',
+          caption: 'Showing off his beautiful golden coat.',
           webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649528030/Dog%20Project/Favorite%20Things%20to%20Do%20500px%20high/Sunny/webp/Sunny-FavoriteThings-03_qqymdq.webp',
         },
         {
