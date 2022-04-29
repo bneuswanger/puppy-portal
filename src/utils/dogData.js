@@ -820,7 +820,7 @@ module.exports.dogs = [
       puppy: {
         url: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1648776352/Dog%20Project/Puppy%20500px%20high/Loki-Puppy_ccs8tt.jpg',
         webp: 'https://res.cloudinary.com/dktwpnsqc/image/upload/v1649518009/Dog%20Project/Puppy%20500px%20high/webp/Loki-Puppy_ugggf2.webp',
-        caption: 'Standing guard over his salmon fully.',
+        caption: 'Standing guard over his salmon fluffy.',
       },
       adultBest: [
         {
