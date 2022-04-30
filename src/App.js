@@ -8,7 +8,6 @@ import BodyDog from './components/body/BodyDog/BodyDog';
 
 const App = () => {
   const [activeDog, setActiveDog] = useState({});
-  console.log('App just ran with strict mode');
   const dogChoiceHandler = (dogchoice) => {
     setActiveDog(dogchoice);
   };
