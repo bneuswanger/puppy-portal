@@ -344,9 +344,9 @@ module.exports.dogs = [
     birthDate: new Date(2009, 2, 27),
     deathDate: new Date(2019, 4, 14),
     owners: 'Jason & Lena',
-    breed: 'Mackenzie River Husky',
+    breed: 'Mackenzie River and Greenland Husky mix',
     summary:
-      'Taiga was a pretty, long-haired Mackenzie River husky acquired from a sled-dog breeder as a puppy by Jason and Lena to share their adventures in Alaska.  Taiga taught Lena how to be a first-time dog owner, while Taiga learned to be a world traveler.  "Going with!" was Taiga\'s favorite phrase, and go she did.  From wilderness Alaska to the bustling Borough of Queens and the forests of northern Wisconsin where skijoring was initiated, Taiga tagged along with Jason and Lena on their exploits and travels.  She was an annual holiday season guest of Sunny, Mishka, & Keenai - a charter member of “the pack.”',
+      'Taiga was a pretty, long-haired Mackenzie River husky acquired from a recreational musher and fellow grad student of Jason\'s at the University of Alaska Fairbanks who found herself with nine "oops" puppies.  Lena was not anticipating a puppy so soon after moving to Alaska, but Taiga quickly taught Lena how to be a first-time dog owner, while Taiga learned to be a world traveler.  "Going with!" was Taiga\'s favorite phrase, and go she did.  From wilderness Alaska to the bustling Borough of Queens and the forests of northern Wisconsin where skijoring was initiated, Taiga tagged along with Jason and Lena on their exploits and travels.  She was an annual holiday season guest of Sunny, Mishka, & Keenai - a charter member of “the pack.”',
     sex: 'female',
     images: {
       profile: {
@@ -745,7 +745,7 @@ module.exports.dogs = [
   },
   {
     name: 'Nika',
-    birthDate: new Date(2019, 11, 1),
+    birthDate: new Date(2019, 10, 28),
     deathDate: new Date(2020, 3, 4),
     owners: 'Jason & Lena',
     breed: 'Belgian Tervuren',
@@ -805,12 +805,12 @@ module.exports.dogs = [
   },
   {
     name: 'Loki',
-    birthDate: new Date(2020, 7, 26),
+    birthDate: new Date(2020, 7, 25),
     deathDate: null,
     owners: 'Jason & Lena',
     breed: 'Belgian Tervuren',
     summary:
-      'In October of 2020, Jason & Lena picked up a male Belgian Tervuren at the Seattle airport.  They named him Loki - a "trickster" in Norse Mythology and companion to Odin and Thor.  Puppy Loki wasn\'t enamored of thunder at first (hid under Jason\'s desk), but soon he became a curious, confident, athletic member of the family.  Loki learned quickly that ducks are for watching, not chasing or eating.  He and Lena\'s favorite duck, Yogi, have a permanent truce that involves sharing cucumbers.  Loki loves to hunt truffles, run fast, jump high, and retrieve balls until your arm falls off.  He is now applying his strength and athleticism to the sport of skijoring, so he\'s happy to be "going with" when the gear comes out.',
+      'In October of 2020, Jason & Lena picked up a male Belgian Tervuren at the Seattle airport.  They named him Loki - a "trickster" in Norse Mythology and companion to Odin and Thor.  Puppy Loki soon he became a curious, confident, athletic member of the family.  Loki learned quickly that ducks are for watching, not chasing or eating.  He and Lena\'s favorite duck, Yogi, have a permanent truce that involves sharing cucumbers.  Loki loves to hunt truffles, run fast, jump high, and retrieve balls until your arm falls off.  He is now applying his strength and athleticism to the sport of skijoring, so he\'s happy to be "going with" when the gear comes out.',
     sex: 'male',
     images: {
       profile: {
