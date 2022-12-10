@@ -57,7 +57,7 @@ const BodyDog = (props) => {
         alt={`2 of 2 top photos of ${name}`}
       />
       {favPics}
-      <p className={styles.copyright}>&copy; 2022 All rights reserved.</p>
+      <p className={styles.copyright}>&copy; 2022-present. All rights reserved.</p>
     </main>
   )
 }

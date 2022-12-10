@@ -32,7 +32,7 @@ const BodyHome = () => {
         </picture>
         <figcaption className={styles['hero-caption']}>(Left to Right) Holly, Ten Bears and Josey enjoying a crisp Fall afternoon.</figcaption>
       </figure>
-      <p className={styles.copyright}>&copy; 2022 All rights reserved.</p>
+      <p className={styles.copyright}>&copy; 2022-present. All rights reserved.</p>
     </main>
   )
 }
