@@ -495,7 +495,7 @@ module.exports.dogs = [
   },
   {
     name: 'Ten Bears',
-    birthDate: new Date(2019, 7, 19),
+    birthDate: new Date(2019, 11, 8),
     deathDate: null,
     owners: 'Mom & Dad',
     breed: 'Labrador Retriever',
@@ -873,4 +873,4 @@ module.exports.dogs = [
       ],
     },
   },
-];
+]
